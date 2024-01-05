@@ -89,7 +89,7 @@ nav .navigation ul li a:hover {
 /* header */
 
 #header {
-    background-image: linear-gradient(rgba(9,5,54,0.3), #121216a1), url("images/cover.jpg");
+    background-image: linear-gradient(rgba(1,0,12,0.5), #000000e0), url("images/cover.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
