@@ -139,26 +139,16 @@ nav .navigation ul li a:hover {
     background:#fff ;
 } 
 
-#header a.yellow {
-    color: #fff;
-    background: #fdc938;
-    transition: 0.3s ease;
-}
-
-#header a.yellow:hover {
-    color:#2a2b31;
-    background: #fff;
-} 
-
 /* features */
 
 #features {
     padding: 5vw 8vw 8vw 8vw;
     text-align: center;
+    background-color: #000000d9;
 }
 
 #features p {
-    color: #4d4e54;
+    color: #cdcdcde8;
 }
 
 #features .fea-base {
@@ -169,7 +159,7 @@ nav .navigation ul li a:hover {
 }
 
 #features .fea-box {
-    background-color: #bab7b12e;
+    background: linear-gradient(180deg, black, transparent);
     text-align: start;
     padding: 35px;
     border-radius: 15px;
@@ -177,13 +167,13 @@ nav .navigation ul li a:hover {
 
 #features .fea-box i {
     font-size: 2.3rem;
-    color: #2a2b31;
+    color: #fff;
 }
 
 #features .fea-box h3 {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #2a2b31;
+    color: #fff;
     padding: 13px 0 7px 0;
 }
 #features .fea-box a{
@@ -194,27 +184,31 @@ nav .navigation ul li a:hover {
 #features .fea-box p {
     font-size: 1rem;
     font-weight: 400;
-    color: #4d4e54;
+    color: #fff;
 }
 
 #features .fea-box button{
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    background-color: #bab7b12e;
+    background-color: #9a9a9a;
     margin: 10% 0 0 34%;
 }
 
 #features .fea-box button:hover{
-    color: #bab7b1;
-    border-radius: 30px;
-    border: 1px;
-    padding: 13px;
+    color: #e1e1e0;
+    border-radius: 15px;
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 /* course */
 
 #corse {
     padding: 8vw 8vw 8vw 8vw;
+    background: linear-gradient(180deg, #00000061, #262626);
     text-align: center;
 }
 
