@@ -42,9 +42,8 @@ nav {
     z-index: 999;
 }
 
-nav img {
-    width: 150px;
-    cursor: pointer;
+nav h3{
+    color: white;
 }
 
 nav .navigation {
@@ -139,6 +138,27 @@ nav .navigation ul li a:hover {
     background:#fff ;
 } 
 
+/* intro */
+#intro{
+    background-color: #2c2c2c;
+    color: white;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+/* .intro_kiri{
+    width: 65%;
+}
+
+.intro_kanan{
+    width: 30%;
+    text-align: right;
+} */
+
+#intro img{
+    width: 100px;
+    height: 100px;
+}
 /* features */
 
 #features {
