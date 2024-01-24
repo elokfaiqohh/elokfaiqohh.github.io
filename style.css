@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Athiti:wght@500&family=Krona+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&family=Varela+Round&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +13,22 @@
 html {
   background: #d7d7d7;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #27435ae6;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  background: transparent;
+}
+
+
 .desktop-3,
 .desktop-3 * {
   box-sizing: border-box;
@@ -54,7 +74,7 @@ html {
 .hi-i-am {
   color: #000000;
   text-align: center;
-  font-family: "Raleway-Bold", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
   font-weight: 700;
   position: absolute;
@@ -70,7 +90,7 @@ html {
 .elok-faiqoh {
   color: #000000;
   text-align: left;
-  font-family: "Raleway-Bold", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 80px;
   font-weight: 700;
   position: absolute;
@@ -83,7 +103,7 @@ html {
 .front-end-web-developer {
   color: #778f9c;
   text-align: left;
-  font-family: "Raleway-ExtraBold", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 25px;
   font-weight: 800;
   position: absolute;
@@ -221,7 +241,7 @@ html {
 .it {
   color: #000000;
   text-align: left;
-  font-family: "Varela-Regular", sans-serif;
+  font-family: "Varela", sans-serif;
   font-size: 280px;
   font-weight: 400;
   position: absolute;
@@ -384,7 +404,7 @@ h2 {
 .science {
   color: #ffffff;
   text-align: center;
-  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: absolute;
@@ -397,7 +417,7 @@ h2 {
 .science2 {
   color: #ffffff;
   text-align: center;
-  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: absolute;
@@ -410,7 +430,7 @@ h2 {
 .informtics {
   color: #ffffff;
   text-align: center;
-  font-family: "JetBrainsMono-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: absolute;
@@ -423,7 +443,7 @@ h2 {
 ._2017-2020 {
   color: #ffffff;
   text-align: center;
-  font-family: "JosefinSans-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: absolute;
@@ -436,7 +456,7 @@ h2 {
 ._2020-2023 {
   color: #ffffff;
   text-align: center;
-  font-family: "JosefinSans-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: absolute;
@@ -449,7 +469,7 @@ h2 {
 ._2023-NOW {
   color: #ffffff;
   text-align: center;
-  font-family: "JosefinSans-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: absolute;
@@ -698,7 +718,7 @@ h2 {
 ._20212 {
   color: #ffffff;
   text-align: center;
-  font-family: "JosefinSans-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: sticky;
@@ -749,7 +769,7 @@ h2 {
 ._20222 {
   color: #ffffff;
   text-align: center;
-  font-family: "JosefinSans-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: sticky;
@@ -801,7 +821,7 @@ h2 {
 ._20232 {
   color: #ffffff;
   text-align: center;
-  font-family: "JosefinSans-Regular", sans-serif;
+  font-family: "Athiti", sans-serif;
   font-size: 15px;
   font-weight: 400;
   position: sticky;
@@ -885,7 +905,7 @@ h2 {
 .using-now {
   color: #000000;
   text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 700;
   position: absolute;
@@ -965,7 +985,7 @@ h2 {
 .learning2 {
   color: #000000;
   text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 700;
   position: absolute;
@@ -1005,7 +1025,7 @@ h2 {
 .other-skills {
   color: #000000;
   text-align: left;
-  font-family: "Montserrat-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 700;
   position: absolute;
@@ -1062,13 +1082,17 @@ h2 {
   text-align: left;
   font-family: "Athiti", sans-serif;
   padding-left: 136px;
-  padding-top: 88px;
+  padding-top: 180px;
   width: 35%;
   height: 43px;
 }
 
-.contact h4{
-
+.looking{
+  color: white;
+  font-family: 'Athiti', sans-serif;
+  position: absolute;
+  left: 135px;
+  top: 100px;
 }
 
 h6 {
@@ -1083,7 +1107,7 @@ h6 {
   font-size: 36px;
   font-weight: 700;
   position: absolute;
-  left: 637px;
+  left: 772px;
   top: 50px;
   width: 100%;
   height: 42px;
@@ -1095,7 +1119,7 @@ h6 {
   left: 155px;
   width: 20px;
   bottom: 55.33%;
-  top: 263px;
+  top: 222px;
   height: 2.99%;
 }
 
@@ -1117,7 +1141,7 @@ h6 {
   left: 155px;
   width: 20px;
   bottom: 24.54%;
-  top: 352px;
+  top: 311px;
   height: 2.99%;
 }
 
@@ -1131,6 +1155,13 @@ h6 {
   top: 12.5%;
   height: 81.25%;
   overflow: visible;
+}
+
+.form{
+  width: 100%;
+  position: absolute;
+  left: 135px;
+  top: -20px;
 }
 
 .rectangle-23 {
@@ -1225,10 +1256,15 @@ h6 {
   font-size: 14px;
   font-weight: 400;
   position: absolute;
-  left: 671px;
+  padding: 8px;
+  border-radius: 8px;
+  left: 653px;
   top: 399px;
   width: 133px;
-  height: 17px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 /* ============================== footer =================================== */
@@ -1333,10 +1369,21 @@ h6 {
     width: 26%;
   }
 
+  .m-ts-zainul-hasan-genggong, .ma-zainul-hasan-genggong, .universitas-negeri-surabaya{
+    font-size: 20px;
+  }
+
   /* ======================== contact  ============================== */
+  .contact{
+    top: 3510px;
+    height: 545px;
+  }
 
   .teks-getintouch {
     width: 50%;
+    position: absolute;
+    left: 750px;
+    top: -120px;
   }
 
   .teks-getintouch h4 {
@@ -1345,11 +1392,23 @@ h6 {
   }
 
   .iconly-regular-outline-home {
-    top: 219px;
+    top: 96px;
+    left: 900px;
   }
 
   .iconly-regular-outline-send {
-    top: 303px;
+    top: 180px;
+    left: 900px;
+  }
+
+  .let-s-connect{
+    left: 122px;
+    top: 150px;
+  }
+
+  .form{
+    left: -480px;
+    top: 60px;
   }
 }
 
@@ -1364,6 +1423,9 @@ h6 {
 }
 
 @media screen and (max-width: 1025px) {
+  .desktop-3{
+    height: 4310px;
+  }
   /* ======================== header ============================ */
   .ellipse-1 {
     width: 685px;
@@ -1533,11 +1595,18 @@ h6 {
   /* =========================== contact ============================== */
   .contact {
     top: 3300px;
+    height: 725px;
   }
 
   .get-in-touch {
     font-size: 28px;
     left: 95px;
+  }
+
+  .teks-getintouch{
+    padding-top: 164px;
+    left: 0;
+    top: -10px;
   }
 
   .teks-getintouch h4 {
@@ -1551,12 +1620,27 @@ h6 {
   }
 
   .iconly-regular-outline-home {
-    top: 192px;
+    top: 180px;
+    width: 15px;
+    left: 150px;
   }
 
   .iconly-regular-outline-send {
-    top: 268px;
+    top: 252px;
+    width: 15px;
+    left: 150px;
   }
 
+  .let-s-connect{
+    top: 310px;
+  }
+
+  .form{
+    top: 225px;
+  }
   
+  /* ======================= footer ==================== */
+  .footer{
+    top: 4026px;
+  }
 }
