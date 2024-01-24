@@ -1356,6 +1356,15 @@ h6 {
     left: 40%;
   }
 
+  .img-elok{
+    left: 50%;
+  }
+
+  /* ======================== nav ============================= */
+  .navbar{
+    margin-right: 80px;
+  }
+
   /* ===================== edu & expert =========================== */
   .rectangle-28 {
     width: 26%;
@@ -1409,16 +1418,6 @@ h6 {
   .form{
     left: -480px;
     top: 60px;
-  }
-}
-
-@media screen and (max-width: 1215px) {
-  .iconly-regular-outline-home {
-    top: 220px;
-  }
-
-  .iconly-regular-outline-send {
-    top: 305px;
   }
 }
 
@@ -1642,5 +1641,40 @@ h6 {
   /* ======================= footer ==================== */
   .footer{
     top: 4026px;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .navbar{
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  /* ======================== header ======================== */
+  #button{
+    left: 38%;
+  }
+
+  /* ======================== intro ======================== */
+  .text-intro{
+    font-size: 17px;
+    padding: 5px;
+  }
+
+  .m-ts-zainul-hasan-genggong,
+  .ma-zainul-hasan-genggong,
+  .universitas-negeri-surabaya {
+    font-size: 14px;
+    top: 64px;
+  }
+
+  .rectangle-28, .rectangle-29, .rectangle-30{
+    width: 28%;
+  }
+
+  /* ========================== skills ======================== */
+  .usingnow img {
+    width: 70px;
   }
 }
