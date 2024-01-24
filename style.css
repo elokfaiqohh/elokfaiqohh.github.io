@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Krona+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Athiti:wght@500&family=Krona+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Athiti:wght@500&family=Krona+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +58,7 @@ html {
   font-size: 40px;
   font-weight: 700;
   position: absolute;
-  left: 196px;
+  left: 14%;
   top: 216px;
   width: 171px;
   height: 58px;
@@ -74,7 +74,7 @@ html {
   font-size: 80px;
   font-weight: 700;
   position: absolute;
-  left: 206px;
+  left: 14.5%;
   top: 300px;
   width: 532px;
   height: 105px;
@@ -87,22 +87,22 @@ html {
   font-size: 25px;
   font-weight: 800;
   position: absolute;
-  left: 211px;
+  left: 15%;
   top: 405px;
   width: 426px;
   height: 40px;
 }
 
-.img-elok{
+.img-elok {
   width: 550px;
   height: 550px;
   position: absolute;
-  left: 940px;
+  left: 56%;
   top: 130px;
-  filter: drop-shadow( 5px 5px 10px black);
+  filter: drop-shadow(5px 5px 10px black);
   object-fit: cover;
   flex-shrink: 0;
-  -webkit-filter: drop-shadow( 5px 5px 10px black);
+  -webkit-filter: drop-shadow(5px 5px 10px black);
 }
 
 .ellipse-2 {
@@ -134,20 +134,18 @@ html {
 .logososmed {
   height: auto;
   position: absolute;
-  left: 211px;
+  left: 15%;
   top: 509px;
   overflow: visible;
 }
 
-.button {
-  width: 270px;
-  height: 56px;
+#button {
   position: absolute;
-  left: 494px;
+  left: 35%;
   top: 509px;
 }
 
-.rectangle-71 {
+.button {
   background: #778f9c;
   border-radius: 10px;
   width: 270px;
@@ -156,12 +154,18 @@ html {
   left: 0px;
   top: 0px;
   box-shadow: 0px 7px 10px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
-.learn-more {
+.button a {
   color: #ffffff;
   text-align: left;
-  font-family: "Athiti-Bold", sans-serif;
+  font-family: "Athiti", sans-serif;
+  text-decoration: none;
   font-size: 25px;
   font-weight: 700;
   position: absolute;
@@ -179,7 +183,7 @@ html {
   top: 0px;
 }
 
-#navbarNav{
+#navbarNav {
   margin-top: 40px;
 }
 
@@ -304,7 +308,7 @@ html {
   width: 100%;
   height: 827px;
   position: absolute;
-  left: 0px; 
+  left: 0px;
   top: 0px;
 }
 
@@ -341,7 +345,7 @@ h2 {
 .universitas-negeri-surabaya {
   color: #ffffff;
   text-align: center;
-  font-family: "Athiti-SemiBold", sans-serif;
+  font-family: sans-serif;
   font-size: 24px;
   font-weight: 600;
   position: absolute;
@@ -354,7 +358,7 @@ h2 {
 .ma-zainul-hasan-genggong {
   color: #ffffff;
   text-align: center;
-  font-family: "Athiti-SemiBold", sans-serif;
+  font-family: sans-serif;
   font-size: 24px;
   font-weight: 600;
   position: absolute;
@@ -367,7 +371,7 @@ h2 {
 .m-ts-zainul-hasan-genggong {
   color: #ffffff;
   text-align: center;
-  font-family: "Athiti-SemiBold", sans-serif;
+  font-family: sans-serif;
   font-size: 24px;
   font-weight: 600;
   position: absolute;
@@ -851,11 +855,10 @@ h2 {
 }
 
 .separator-black-3 {
-  width: 212.5px;
-  height: 15px;
+  width: 25%;
   position: absolute;
-  left: 614px;
-  top: 109px;
+  left: 38%;
+  top: 35px;
   object-fit: cover;
 }
 
@@ -897,7 +900,6 @@ h2 {
 
 .image-22 {
   width: 100px;
-  height: 113.59px;
   position: absolute;
   left: 17%;
   top: 222px;
@@ -906,7 +908,6 @@ h2 {
 
 .image-23 {
   width: 100px;
-  height: 114.13px;
   position: absolute;
   left: 33%;
   top: 222px;
@@ -915,7 +916,6 @@ h2 {
 
 .image-24 {
   width: 100px;
-  height: 113.71px;
   position: absolute;
   left: 49%;
   top: 222px;
@@ -924,7 +924,6 @@ h2 {
 
 .image-25 {
   width: 100px;
-  height: 100px;
   position: absolute;
   left: 64%;
   top: 229px;
@@ -933,7 +932,6 @@ h2 {
 
 .image-26 {
   width: 120px;
-  height: 120px;
   position: absolute;
   left: 17%;
   top: 441px;
@@ -942,7 +940,6 @@ h2 {
 
 .image-27 {
   width: 80px;
-  height: 122.17px;
   position: absolute;
   left: 33%;
   top: 441px;
@@ -951,7 +948,6 @@ h2 {
 
 .image-28 {
   width: 100px;
-  height: 112.5px;
   position: absolute;
   left: 49%;
   top: 445px;
@@ -984,7 +980,6 @@ h2 {
 
 .image-30 {
   width: 140px;
-  height: 131.25px;
   position: absolute;
   left: 17%;
   top: 124px;
@@ -993,7 +988,6 @@ h2 {
 
 .image-31 {
   width: 350px;
-  height: 131.25px;
   position: absolute;
   left: 26%;
   top: 124px;
@@ -1026,7 +1020,6 @@ h2 {
 
 .image-32 {
   width: 110px;
-  height: 110px;
   position: absolute;
   left: 17%;
   top: 168px;
@@ -1035,7 +1028,6 @@ h2 {
 
 .image-33 {
   width: 120px;
-  height: 132.72px;
   position: absolute;
   left: 33%;
   top: 145px;
@@ -1070,12 +1062,16 @@ h2 {
   text-align: left;
   font-family: "Athiti", sans-serif;
   padding-left: 136px;
-  padding-top: 100px;
+  padding-top: 88px;
   width: 35%;
   height: 43px;
 }
 
-h6{
+.contact h4{
+
+}
+
+h6 {
   padding-left: 55px;
 }
 
@@ -1097,9 +1093,9 @@ h6{
   position: absolute;
   right: 89.65%;
   left: 155px;
-  width: 1.04%;
+  width: 20px;
   bottom: 55.33%;
-  top: 47%;
+  top: 263px;
   height: 2.99%;
 }
 
@@ -1115,25 +1111,13 @@ h6{
   overflow: visible;
 }
 
-.iconly-regular-outline-call {
-  height: auto;
-  position: absolute;
-  right: 89.65%;
-  left: 155px;
-  width: 1.04%;
-  bottom: 39.99%;
-  top: 65.5%;
-  height: 2.99%;
-  overflow: visible;
-}
-
 .iconly-regular-outline-send {
   position: absolute;
   right: 89.65%;
   left: 155px;
-  width: 1.04%;
+  width: 20px;
   bottom: 24.54%;
-  top: 84.5%;
+  top: 352px;
   height: 2.99%;
 }
 
@@ -1147,42 +1131,6 @@ h6{
   top: 12.5%;
   height: 81.25%;
   overflow: visible;
-}
-
-.rectangle-19 {
-  background: #ffffff;
-  width: 320px;
-  height: 40px;
-  position: absolute;
-  left: 653px;
-  top: 167px;
-}
-
-.rectangle-21 {
-  background: #ffffff;
-  width: 669px;
-  height: 40px;
-  position: absolute;
-  left: 653px;
-  top: 228px;
-}
-
-.rectangle-22 {
-  background: #ffffff;
-  width: 669px;
-  height: 78px;
-  position: absolute;
-  left: 653px;
-  top: 289px;
-}
-
-.rectangle-20 {
-  background: #ffffff;
-  width: 320px;
-  height: 40px;
-  position: absolute;
-  left: 1002px;
-  top: 167px;
 }
 
 .rectangle-23 {
@@ -1205,6 +1153,12 @@ h6{
   top: 178px;
   width: 213px;
   height: 17px;
+  background: #ffffff;
+  width: 320px;
+  height: 40px;
+  position: absolute;
+  left: 653px;
+  top: 167px;
 }
 
 .email {
@@ -1218,6 +1172,12 @@ h6{
   top: 178px;
   width: 213px;
   height: 17px;
+  background: #ffffff;
+  width: 320px;
+  height: 40px;
+  position: absolute;
+  left: 1002px;
+  top: 167px;
 }
 
 .subject {
@@ -1231,6 +1191,12 @@ h6{
   top: 239px;
   width: 213px;
   height: 17px;
+  background: #ffffff;
+  width: 669px;
+  height: 40px;
+  position: absolute;
+  left: 653px;
+  top: 228px;
 }
 
 .how-we-can-help {
@@ -1244,6 +1210,12 @@ h6{
   top: 301px;
   width: 213px;
   height: 17px;
+  background: #ffffff;
+  width: 669px;
+  height: 78px;
+  position: absolute;
+  left: 653px;
+  top: 289px;
 }
 
 .send-message {
@@ -1313,4 +1285,278 @@ h6{
   top: 65px;
   transform: translate(0px, -15px);
   overflow: visible;
+}
+
+.icon-sosmed {
+  position: absolute;
+  width: 100%;
+  top: 145px;
+  text-align: center;
+}
+
+.icon-sosmed a {
+  text-decoration: none;
+}
+
+.vector6 {
+  margin: 0 10px;
+}
+
+.vector7 {
+  margin: 0 10px;
+}
+
+.vector8 {
+  margin: 0 10px;
+}
+
+.vector9 {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  /* =======================  header =========================== */
+  #button {
+    left: 40%;
+  }
+
+  /* ===================== edu & expert =========================== */
+  .rectangle-28 {
+    width: 26%;
+  }
+
+  .rectangle-29 {
+    width: 26%;
+  }
+
+  .rectangle-30 {
+    width: 26%;
+  }
+
+  /* ======================== contact  ============================== */
+
+  .teks-getintouch {
+    width: 50%;
+  }
+
+  .teks-getintouch h4 {
+    font-size: 1.3rem;
+    width: 500px;
+  }
+
+  .iconly-regular-outline-home {
+    top: 219px;
+  }
+
+  .iconly-regular-outline-send {
+    top: 303px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .iconly-regular-outline-home {
+    top: 220px;
+  }
+
+  .iconly-regular-outline-send {
+    top: 305px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  /* ======================== header ============================ */
+  .ellipse-1 {
+    width: 685px;
+    left: 84%;
+    top: -275px;
+  }
+
+  .hi-i-am {
+    font-size: 35px;
+    left: 105px;
+  }
+
+  .elok-faiqoh {
+    font-size: 60px;
+    left: 120px;
+  }
+
+  .front-end-web-developer {
+    font-size: 20px;
+    left: 125px;
+    top: 385px;
+  }
+
+  .img-elok {
+    width: 450px;
+    height: 450px;
+    left: 48%;
+    top: 225px;
+  }
+
+  .logososmed {
+    left: 120px;
+    width: 20%;
+  }
+
+  #button {
+    left: 35%;
+  }
+
+  .button {
+    width: 230px;
+    height: 50px;
+  }
+
+  .button a {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /* ======================== navigasi =========================== */
+  .navbar {
+    margin-right: 215px;
+  }
+
+  /* ======================== intro ============================ */
+
+  .text-intro {
+    font-size: 18px;
+  }
+
+  /* ======================= edu & expert ========================= */
+  .rectangle-14 {
+    height: 190px;
+  }
+
+  .m-ts-zainul-hasan-genggong,
+  .ma-zainul-hasan-genggong,
+  .universitas-negeri-surabaya {
+    font-size: 15px;
+    top: 65px;
+  }
+
+  .science,
+  .science2,
+  .informtics {
+    font-size: 12px;
+    top: 99px;
+  }
+
+  ._2017-2020,
+  ._2020-2023,
+  ._2023-NOW {
+    font-size: 12px;
+    top: 125px;
+  }
+
+  .teks-2021,
+  .teks-2022,
+  .teks-2023 {
+    font-size: 15px;
+  }
+
+  /* ====================== skills ======================  */
+  .using-now,
+  .learning2,
+  .other-skills {
+    font-size: 20px;
+  }
+
+  .usingnow {
+    top: 160px;
+  }
+
+  .usingnow img {
+    width: 80px;
+  }
+
+  .image-22,
+  .image-23,
+  .image-24,
+  .image-25 {
+    top: 180px;
+  }
+
+  .image-26,
+  .image-27,
+  .image-28 {
+    top: 365px;
+  }
+
+  .usingnow .image-26 {
+    left: 16%;
+    width: 105px;
+  }
+
+  .usingnow .image-27 {
+    width: 65px;
+  }
+
+  .image-30 {
+    width: 100px;
+  }
+
+  .image-31 {
+    width: 225px;
+  }
+
+  .image-32 {
+    width: 95px;
+  }
+
+  .image-33 {
+    width: 95px;
+    top: 163px;
+  }
+
+  .learning {
+    top: 730px;
+  }
+
+  .other {
+    top: 1035px;
+  }
+
+  .other img {
+    top: 145px;
+  }
+
+  .ellipse-12 {
+    top: 1400px;
+  }
+
+  .ellipse-13 {
+    top: 1600px;
+  }
+
+  /* =========================== contact ============================== */
+  .contact {
+    top: 3300px;
+  }
+
+  .get-in-touch {
+    font-size: 28px;
+    left: 95px;
+  }
+
+  .teks-getintouch h4 {
+    font-size: 1rem;
+    width: 500px;
+  }
+
+  .teks-getintouch h6 {
+    font-size: 13px;
+    width: 500px;
+  }
+
+  .iconly-regular-outline-home {
+    top: 192px;
+  }
+
+  .iconly-regular-outline-send {
+    top: 268px;
+  }
+
+  
 }
