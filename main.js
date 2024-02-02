@@ -1,4 +1,4 @@
-// alert("Website ini masih dalam on building");
+alert("This website is still in development");
 const contactForm = document.getElementById("contact-form");
 const loader = document.querySelector(".loading");
 
