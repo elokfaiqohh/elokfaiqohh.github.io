@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Krona+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Athiti:wght@500&family=Krona+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&family=Varela+Round&display=swap");
 
 * {
   margin: 0;
@@ -27,7 +27,6 @@ html {
 ::-webkit-scrollbar-button:end:increment {
   background: transparent;
 }
-
 
 .desktop-3,
 .desktop-3 * {
@@ -1087,9 +1086,9 @@ h2 {
   height: 43px;
 }
 
-.looking{
+.looking {
   color: white;
-  font-family: 'Athiti', sans-serif;
+  font-family: "Athiti", sans-serif;
   position: absolute;
   left: 135px;
   top: 100px;
@@ -1157,7 +1156,7 @@ h6 {
   overflow: visible;
 }
 
-.form{
+.form {
   width: 100%;
   position: absolute;
   left: 135px;
@@ -1190,6 +1189,10 @@ h6 {
   position: absolute;
   left: 653px;
   top: 167px;
+}
+
+.your-name:focus-visible{
+  color: black;
 }
 
 .email {
@@ -1265,6 +1268,125 @@ h6 {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+}
+
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 /* ============================== footer =================================== */
@@ -1356,12 +1478,12 @@ h6 {
     left: 40%;
   }
 
-  .img-elok{
+  .img-elok {
     left: 50%;
   }
 
   /* ======================== nav ============================= */
-  .navbar{
+  .navbar {
     margin-right: 80px;
   }
 
@@ -1378,12 +1500,14 @@ h6 {
     width: 26%;
   }
 
-  .m-ts-zainul-hasan-genggong, .ma-zainul-hasan-genggong, .universitas-negeri-surabaya{
+  .m-ts-zainul-hasan-genggong,
+  .ma-zainul-hasan-genggong,
+  .universitas-negeri-surabaya {
     font-size: 20px;
   }
 
   /* ======================== contact  ============================== */
-  .contact{
+  .contact {
     top: 3510px;
     height: 545px;
   }
@@ -1410,19 +1534,19 @@ h6 {
     left: 900px;
   }
 
-  .let-s-connect{
+  .let-s-connect {
     left: 122px;
     top: 150px;
   }
 
-  .form{
+  .form {
     left: -480px;
     top: 60px;
   }
 }
 
 @media screen and (max-width: 1025px) {
-  .desktop-3{
+  .desktop-3 {
     height: 4310px;
   }
   /* ======================== header ============================ */
@@ -1602,7 +1726,7 @@ h6 {
     left: 95px;
   }
 
-  .teks-getintouch{
+  .teks-getintouch {
     padding-top: 164px;
     left: 0;
     top: -10px;
@@ -1630,34 +1754,83 @@ h6 {
     left: 150px;
   }
 
-  .let-s-connect{
+  .let-s-connect {
     top: 310px;
   }
 
-  .form{
+  .form {
     top: 225px;
   }
-  
+
   /* ======================= footer ==================== */
-  .footer{
+  .footer {
     top: 4026px;
   }
 }
 
-@media screen and (max-width: 992px){
-  .navbar{
+@media screen and (max-width: 992px) {
+  .navbar {
     margin-right: 20px;
+  }
+
+  #button {
+    left: 37%;
+  }
+
+  .button {
+    width: 200px;
+    height: 45px;
+  }
+
+  .button a {
+    font-size: 18px;
+    left: 58px;
   }
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
   /* ======================== header ======================== */
-  #button{
-    left: 38%;
+
+  .ellipse-1 {
+    left: 88%;
+  }
+
+  #button {
+    left: 35%;
+  }
+
+  .button {
+    width: 200px;
+    height: 40px;
+  }
+
+  .button a {
+    font-size: 15px;
+  }
+
+  .hi-i-am {
+    left: 70px;
+  }
+
+  .elok-faiqoh {
+    left: 95px;
+  }
+
+  .front-end-web-developer {
+    left: 98px;
+  }
+
+  .logososmed {
+    left: 98px;
+    width: 19%;
+  }
+
+  .img-elok {
+    left: 41%;
   }
 
   /* ======================== intro ======================== */
-  .text-intro{
+  .text-intro {
     font-size: 17px;
     padding: 5px;
   }
@@ -1669,12 +1842,147 @@ h6 {
     top: 64px;
   }
 
-  .rectangle-28, .rectangle-29, .rectangle-30{
+  .rectangle-28,
+  .rectangle-29,
+  .rectangle-30 {
     width: 28%;
+    height: 31%;
   }
 
   /* ========================== skills ======================== */
   .usingnow img {
     width: 70px;
   }
+
+  /* ======================= contact  ========================= */
+  .form {
+    left: -565px;
+  }
+
+  .let-s-connect {
+    left: 80px;
+  }
+
+  .teks-getintouch {
+    left: -30px;
+  }
+
+  .looking {
+    left: 105px;
+  }
+
+  .get-in-touch {
+    left: 65px;
+  }
+
+  .iconly-regular-outline-home,
+  .iconly-regular-outline-send {
+    left: 125px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  /* =========================== header ===================== */
+
+  .ellipse-1{
+    left: 93%;
+  }
+
+  .navbar {
+    margin-top: 20px;
+  }
+
+  .button {
+    height: 36px;
+  }
+
+  .button a {
+    top: 5px;
+  }
+
+  /* ============================= intro ========================== */
+  .text-intro{
+    font-size: 15px;
+  }
+
+  /* ========================== edu & expert ======================= */
+  .m-ts-zainul-hasan-genggong,
+  .ma-zainul-hasan-genggong,
+  .universitas-negeri-surabaya {
+    font-size: 12px;
+  }
+
+  .science,
+  .science2,
+  .informtics ._2017-2020,
+  ._2020-2023,
+  ._2023-NOW {
+    font-size: 11px;
+  }
+
+  .teks-2021, .teks-2022, .teks-2023{
+    font-size: 13px;
+    padding: 35px;
+  }
+
+  .rectangle-28, .rectangle-29, .rectangle-30{
+    height: 26%;
+  }
+
+  /* =========================== skills ============================ */
+  .using-now, .learning2, .other-skills{
+    font-size: 18px;
+    left: 10%;
+  }
+
+  .usingnow img{
+    width: 60px;
+  }
+
+  .usingnow  .image-26{
+    left: 15%;
+    width: 90px;
+  }
+  
+  .usingnow  .image-27{
+    width: 55px;
+  }
+
+  .image-30, .image-32, .image-33{
+    width: 75px;
+  }
+
+  .image-31{
+    width: 180px;
+  }
+
+  /* ====================== contact ================= */
+  .form{
+    left: -595px;
+  }
+
+  .let-s-connect{
+    left: 50px;
+  }
+
+  .teks-getintouch{
+    left: -60px;
+  }
+
+  .looking{
+    left: 75px;
+  }
+
+  .get-in-touch{
+    left: 35px;
+  }
+
+  .iconly-regular-outline-home, .iconly-regular-outline-send{
+    left: 100px;
+  }
+
+  /* ============================= footer ================== */
+  .back-to-top{
+    font-size: 13px;
+}
 }

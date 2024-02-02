@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Thank You</title>
+    <style>
+      * {
+        background-color: #d9d9d9;
+      }
+      .link {
+        display: flex;
+        justify-content: center;
+        height: 10%;
+      }
+      a {
+        margin: 20px;
+        padding: 10px 35px;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 7px;
+        background-color: #e0e0e0;
+        transition: all 700ms ease;
+        border: 2.5px solid #274351;
+      }
+
+      a:hover {
+        background-color: #274351;
+        color: #e0e0e0;
+        animation: bn54rotate 0.7s ease-in-out both;
+        animation-delay: 0.06s;
+        box-shadow: 0 0 3rem rgba(250, 239, 239, 0.3);
+        cursor: pointer;
+      }
+
+      @keyframes bn54rotate {
+        0% {
+          transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+        25% {
+          transform: rotate(3deg) translate3d(0, 0, 0);
+        }
+        50% {
+          transform: rotate(-3deg) translate3d(0, 0, 0);
+        }
+        75% {
+          transform: rotate(1deg) translate3d(0, 0, 0);
+        }
+        100% {
+          transform: rotate(0deg) translate3d(0, 0, 0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"
+      >
+        <img
+          class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+          alt="hero"
+          src="images/thanks.png"
+        />
+        <div class="text-center lg:w-2/3 w-full">
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Your message has been sent.
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Thank you for contacting me. I'll read your message and respond.
+            I'll try to answer your message as soon as possible. Please be
+            patient for a moment, because there's a possibility I'm busy with
+            work or other affairs. <br />
+            ~ elokfaiqoh ~
+          </p>
+          <div class="link">
+            <a
+              class="a"
+              href="index.html"
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Back
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

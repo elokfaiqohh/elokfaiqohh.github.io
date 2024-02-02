@@ -228,7 +228,7 @@
           innovative person with a high learning spirit. I&#039;ve always been
           interested in learning new things, especially those related to
           information technology.
-          <br />Thank you for visiting my website!
+          <br />Thank you for visiting my website.
           <br />
           <br />Greetings, <br />Elok Faiqoh
         </div>
@@ -711,17 +711,19 @@
             </g>
           </svg>
         </div>
-        <div class="form">
-          <input type="text" class="your-name" placeholder="Your Name" />
-          <input type="text" class="email" placeholder="Email" />
-          <input type="text" class="subject" placeholder="Subject" />
+        <form id="contact-form" class="form" action="https://formspree.io/f/xeqyaeoj" method="POST">
+          <input type="text" name="name" class="your-name" placeholder="Your Name" />
+          <input type="email" name="email" class="email" placeholder="Email" />
+          <input type="subject" name="subject" class="subject" placeholder="Subject" />
           <textarea
             type="text"
             class="how-we-can-help"
             placeholder="How we can help?"
+            name="massage"
           ></textarea>
           <button class="send-message">Send Message</button>
-        </div>
+          <div class="loading">Loading&#8230;</div>
+        </form>
       </div>
 
       <!-- =========================== footer =========================== -->
