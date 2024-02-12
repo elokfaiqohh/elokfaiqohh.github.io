@@ -1,4 +1,4 @@
-alert("This website is still in development");
+alert("This website is still in the development phase and it is recommended to use a laptop to get an optimal user experience. Additional features and improvements are being made to improve the performance and functionality of this website");
 const contactForm = document.getElementById("contact-form");
 const loader = document.querySelector(".loading");
 
