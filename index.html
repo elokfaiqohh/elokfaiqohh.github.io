@@ -1,835 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="desktop-3">
-      <!-- ============================== header ================================= -->
-      <div class="header">
-        <div class="rectangle-73"></div>
-        <div class="ellipse-1"></div>
-        <div class="hi-i-am">Hi, I am</div>
-        <div class="elok-faiqoh">Elok Faiqoh</div>
-        <div class="front-end-web-developer">Front-end Web Developer</div>
-        <img class="img-elok" src="images/myphoto.png" />
-        <div class="ellipse-2"></div>
-        <div class="ellipse-3"></div>
-        <svg
-          class="logososmed"
-          width="245"
-          height="56"
-          viewBox="0 0 245 56"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <a href="https://www.linkedin.com/in/elokfaiqohhh/">
-            <g filter="url(#filter0_d_41_67)">
-              <rect
-                x="92"
-                width="61"
-                height="56"
-                fill="#C8A98E"
-                fill-opacity="0.7"
-              />
-            </g>
-            <path
-              d="M123.484 11C113.824 10.9961 106 18.8164 106 28.4688C106 36.1016 110.895 42.5899 117.711 44.9727C118.629 45.2032 118.488 44.5508 118.488 44.1055V41.0782C113.188 41.6992 112.973 38.1914 112.617 37.6055C111.898 36.3789 110.199 36.0664 110.707 35.4805C111.914 34.8594 113.145 35.6367 114.57 37.7422C115.602 39.2696 117.613 39.0117 118.633 38.7578C118.855 37.8399 119.332 37.0196 119.988 36.3828C114.496 35.3985 112.207 32.0469 112.207 28.0625C112.207 26.1289 112.844 24.3516 114.094 22.918C113.297 20.5547 114.168 18.5313 114.285 18.2305C116.555 18.0274 118.914 19.8555 119.098 20C120.387 19.6524 121.859 19.4688 123.508 19.4688C125.164 19.4688 126.641 19.6602 127.941 20.0117C128.383 19.6758 130.57 18.1055 132.68 18.2969C132.793 18.5977 133.645 20.5742 132.895 22.9063C134.16 24.3438 134.805 26.1367 134.805 28.0742C134.805 32.0664 132.5 35.4219 126.992 36.3906C127.464 36.8546 127.839 37.4079 128.094 38.0182C128.35 38.6285 128.481 39.2837 128.48 39.9453V44.3399C128.512 44.6914 128.48 45.0391 129.066 45.0391C135.984 42.7071 140.965 36.1719 140.965 28.4727C140.965 18.8164 133.137 11 123.484 11Z"
-              fill="black"
-            />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-6 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <span class="ml-3 text-xl">Elok Faiqoh</span>
           </a>
-          <a href="https://github.com/elokfaiqohh">
-            <g filter="url(#filter1_d_41_67)">
-              <rect
-                x="184"
-                width="61"
-                height="56"
-                fill="#C8A98E"
-                fill-opacity="0.7"
-              />
-            </g>
-            <path
-              d="M215.2 9C204.596 9 196 17.596 196 28.2001C196 38.8041 204.596 47.4002 215.2 47.4002C225.804 47.4002 234.4 38.8041 234.4 28.2001C234.4 17.596 225.804 9 215.2 9ZM210.5 36.1581H206.612V23.6461H210.5V36.1581ZM208.532 22.1101C207.304 22.1101 206.51 21.2401 206.51 20.1641C206.51 19.066 207.328 18.222 208.582 18.222C209.836 18.222 210.604 19.066 210.628 20.1641C210.628 21.2401 209.836 22.1101 208.532 22.1101ZM224.7 36.1581H220.812V29.2241C220.812 27.6101 220.248 26.5141 218.842 26.5141C217.768 26.5141 217.13 27.2561 216.848 27.9701C216.744 28.2241 216.718 28.5841 216.718 28.9421V36.1561H212.828V27.6361C212.828 26.0741 212.778 24.7681 212.726 23.6441H216.104L216.282 25.3821H216.36C216.872 24.5661 218.126 23.3621 220.224 23.3621C222.782 23.3621 224.7 25.0761 224.7 28.7601V36.1581Z"
-              fill="black"
-            />
-          </a>
-          <a href="https://www.instagram.com/ee_lok/">
-            <g filter="url(#filter2_d_41_67)">
-              <rect width="61" height="56" fill="#C8A98E" fill-opacity="0.7" />
-            </g>
-            <path
-              d="M30.5 14C26.2864 14 25.7613 14.021 24.1122 14.093C22.4564 14.177 21.3364 14.4421 20.3482 14.8381C19.3139 15.2412 18.3772 15.8722 17.6034 16.6873C16.8115 17.4842 16.1998 18.4517 15.8119 19.5207C15.4282 20.5408 15.1715 21.697 15.0901 23.4062C15.0155 25.1094 15 25.6505 15 30C15 34.3495 15.0203 34.8916 15.0901 36.5938C15.1715 38.298 15.4282 39.4592 15.8119 40.4793C16.2024 41.547 16.8137 42.5139 17.6034 43.3127C18.3754 44.13 19.3126 44.7614 20.3482 45.1619C21.3364 45.5529 22.4613 45.823 24.1122 45.907C25.7622 45.984 26.2864 46 30.5 46C34.7136 46 35.2388 45.979 36.8878 45.907C38.5387 45.823 39.6636 45.5519 40.6518 45.1619C41.6861 44.7588 42.6228 44.1278 43.3966 43.3127C44.1895 42.5166 44.8013 41.5489 45.1881 40.4793C45.5669 39.4592 45.8285 38.298 45.9099 36.5938C45.9845 34.8906 46 34.3495 46 30C46 25.6505 45.9797 25.1084 45.9099 23.4062C45.8285 21.702 45.5659 20.5348 45.1881 19.5207C44.7976 18.453 44.1863 17.4861 43.3966 16.6873C42.6255 15.8689 41.688 15.2373 40.6518 14.8381C39.6636 14.4421 38.5387 14.177 36.8878 14.093C35.2378 14.016 34.7136 14 30.5 14ZM30.5 16.8804C34.6381 16.8804 35.1322 16.9014 36.7676 16.9734C38.2762 17.0464 39.0978 17.3064 39.6432 17.5264C40.3176 17.7834 40.9279 18.1924 41.4298 18.7236C41.9436 19.2395 42.3383 19.8681 42.5847 20.5628C42.7979 21.1259 43.0498 21.974 43.1205 23.5312C43.1903 25.2194 43.2106 25.7305 43.2106 30.001C43.2106 34.2715 43.1903 34.7826 43.1147 36.4708C43.0333 38.028 42.7814 38.8761 42.5692 39.4392C42.2757 40.1903 41.9482 40.7153 41.4076 41.2834C40.904 41.8113 40.294 42.2183 39.621 42.4756C39.0823 42.6956 38.249 42.9556 36.7347 43.0286C35.0905 43.1006 34.6061 43.1216 30.4574 43.1216C26.3087 43.1216 25.8252 43.1006 24.1791 43.0226C22.6706 42.9386 21.8383 42.6786 21.2928 42.4596C20.5565 42.1565 20.0517 41.8185 19.5111 41.2604C18.9656 40.6973 18.6187 40.1613 18.3513 39.4162C18.1343 38.8601 17.8863 38 17.8059 36.4368C17.7506 34.7596 17.7245 34.2395 17.7245 29.977C17.7245 25.7165 17.7506 25.1954 17.8059 23.4972C17.8863 21.934 18.1343 21.0759 18.3513 20.5178C18.6187 19.7567 18.9666 19.2367 19.5111 18.6736C20.0507 18.1165 20.5565 17.7565 21.2928 17.4744C21.8383 17.2554 22.6502 16.9954 24.1646 16.9174C25.8087 16.8564 26.2932 16.8344 30.4361 16.8344L30.5 16.8804ZM30.5 21.788C29.4549 21.7876 28.42 21.9998 27.4544 22.4124C26.4888 22.8251 25.6114 23.4301 24.8725 24.1929C24.1335 24.9557 23.5474 25.8614 23.1476 26.8582C22.7478 27.8549 22.5423 28.9232 22.5427 30.002C22.5423 31.0808 22.7478 32.1491 23.1476 33.1458C23.5474 34.1426 24.1335 35.0483 24.8725 35.8111C25.6114 36.5739 26.4888 37.1789 27.4544 37.5916C28.42 38.0042 29.4549 38.2164 30.5 38.216C31.5451 38.2164 32.58 38.0042 33.5456 37.5916C34.5112 37.1789 35.3886 36.5739 36.1275 35.8111C36.8665 35.0483 37.4526 34.1426 37.8524 33.1458C38.2522 32.1491 38.4577 31.0808 38.4573 30.002C38.4577 28.9232 38.2522 27.8549 37.8524 26.8582C37.4526 25.8614 36.8665 24.9557 36.1275 24.1929C35.3886 23.4301 34.5112 22.8251 33.5456 22.4124C32.58 21.9998 31.5451 21.7876 30.5 21.788ZM30.5 35.3357C27.6438 35.3357 25.333 32.9504 25.333 30.002C25.333 27.0536 27.6438 24.6683 30.5 24.6683C33.3562 24.6683 35.667 27.0536 35.667 30.002C35.667 32.9504 33.3562 35.3357 30.5 35.3357ZM40.6383 21.4599C40.6378 21.9697 40.4412 22.4583 40.0919 22.8186C39.7425 23.1788 39.2689 23.3812 38.7751 23.3812C38.531 23.3812 38.2892 23.3315 38.0636 23.2351C37.838 23.1386 37.6331 22.9973 37.4604 22.819C37.2878 22.6408 37.1508 22.4292 37.0574 22.1964C36.964 21.9635 36.9159 21.714 36.9159 21.4619C36.9159 21.2099 36.964 20.9603 37.0574 20.7275C37.1508 20.4946 37.2878 20.283 37.4604 20.1048C37.6331 19.9266 37.838 19.7852 38.0636 19.6888C38.2892 19.5923 38.531 19.5427 38.7751 19.5427C39.7992 19.5427 40.6383 20.4028 40.6383 21.4599Z"
-              fill="black"
-              fill-opacity="0.9"
-            />
-          </a>
-          <defs>
-            <filter
-              id="filter0_d_41_67"
-              x="88"
-              y="0"
-              width="69"
-              height="64"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feColorMatrix
-                in="SourceAlpha"
-                type="matrix"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                result="hardAlpha"
-              />
-              <feOffset dy="4" />
-              <feGaussianBlur stdDeviation="2" />
-              <feColorMatrix
-                type="matrix"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-              />
-              <feBlend
-                mode="normal"
-                in2="BackgroundImageFix"
-                result="effect1_dropShadow_41_67"
-              />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="effect1_dropShadow_41_67"
-                result="shape"
-              />
-            </filter>
-            <filter
-              id="filter1_d_41_67"
-              x="180"
-              y="0"
-              width="69"
-              height="64"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feColorMatrix
-                in="SourceAlpha"
-                type="matrix"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                result="hardAlpha"
-              />
-              <feOffset dy="4" />
-              <feGaussianBlur stdDeviation="2" />
-              <feColorMatrix
-                type="matrix"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-              />
-              <feBlend
-                mode="normal"
-                in2="BackgroundImageFix"
-                result="effect1_dropShadow_41_67"
-              />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="effect1_dropShadow_41_67"
-                result="shape"
-              />
-            </filter>
-            <filter
-              id="filter2_d_41_67"
-              x="-4"
-              y="0"
-              width="69"
-              height="64"
-              filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
-            >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
-              <feColorMatrix
-                in="SourceAlpha"
-                type="matrix"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                result="hardAlpha"
-              />
-              <feOffset dy="4" />
-              <feGaussianBlur stdDeviation="2" />
-              <feColorMatrix
-                type="matrix"
-                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-              />
-              <feBlend
-                mode="normal"
-                in2="BackgroundImageFix"
-                result="effect1_dropShadow_41_67"
-              />
-              <feBlend
-                mode="normal"
-                in="SourceGraphic"
-                in2="effect1_dropShadow_41_67"
-                result="shape"
-              />
-            </filter>
-          </defs>
-        </svg>
-        <div id="button">
-          <button class="button"><a href="#">learn more</a></button>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-pink-200">First Link</a>
+            <a class="mr-5 hover:text-pink-200">Second Link</a>
+            <a class="mr-5 hover:text-pink-200">Third Link</a>
+          </nav>
         </div>
-        <!-- =================== nav =================== -->
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand fs-3" href="#">E</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-light" href="#">Contact</a>
-                </li>
-              </ul>
+      </header>
+
+
+      <section id="hero" class="text-gray-400 bg-gray-700 body-font">
+        <div class="container mx-auto flex px-10 pb-0 pt-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font md:text-6xl text-3xl mb-6 font-bold text-white">Hi, I am <span class="auto-type text-pink-500"></span> </h1>
+            <h2 class="title-font sm:text-3xl text-3xl mb-8 font-medium text-white">Junior Front End Web Dev</h2>
+            <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Button</button>
+              <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
             </div>
           </div>
-        </nav>
-      </div>
-
-      <!-- ============================ intro ============================= -->
-      <div class="intro">
-        <div class="it">IT</div>
-        <div class="rectangle-1"></div>
-        <div class="ellipse-4"></div>
-        <div class="ellipse-5"></div>
-        <div class="text-intro">
-          My name is Elok Faiqoh, a student of Computer Engineering at Surabaya
-          State University. I&#039;m interested in the field of information
-          technology and want to develop a career in that field. On this
-          website, you&#039;ll find information about me, from my education,
-          experience, to the projects I&#039;ve been working on. I hope this
-          information can help you get to know me better. I&#039;m a creative,
-          innovative person with a high learning spirit. I&#039;ve always been
-          interested in learning new things, especially those related to
-          information technology.
-          <br />Thank you for visiting my website.
-          <br />
-          <br />Greetings, <br />Elok Faiqoh
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img id="img-hero" class="object-cover object-center rounded" alt="hero" src="assets/me.png">
+          </div>
         </div>
-      </div>
+      </section>
 
-      <!-- ========================= edu & expert =========================== -->
-      <div class="edu-expert">
-        <img class="separator-black-32" src="separator-black-31.png" />
-        <div class="rectangle-74"></div>
-        <h2>Educations &amp; Experience</h2>
-        <div class="education">
-          <div class="rectangle-14"></div>
-          <div class="universitas-negeri-surabaya">
-            Universitas Negeri Surabaya
+
+
+      <section id="intro" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex px-0 py-24 items-center justify-center flex-col">
+          <div class="text-center lg:w-3/3 w-full">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Get to Know Me More</h1>
+            <p class="text-justify  pt-10 pb-3">My name is Elok Faiqoh, a student of informatics Engineering at Surabaya State University. I'm interested in the field of information technology like software developer, or fullstack developer and want to develop a career in that field. On this website, you'll find information about me, from my education, experience, to the projects I've been working on. I hope this information can help you get to know me better. I'm a creative, innovative person with a high learning spirit. I've always been interested in learning new things, especially those related to information technology.</p>
+              <p class="text-justify">Thank you for visiting my website.</p><br>
+              <p class="text-justify">Greetings,</p>
+              <p class="text-justify">Elok Faiqoh</p>
           </div>
-          <div class="ma-zainul-hasan-genggong">MA Zainul Hasan Genggong</div>
-          <div class="m-ts-zainul-hasan-genggong">
-            MTs Zainul Hasan Genggong
-          </div>
-          <div class="science">SCIENCE</div>
-          <div class="science2">SCIENCE</div>
-          <div class="informtics">INFORMATICS</div>
-          <div class="_2017-2020">2017 - 2020</div>
-          <div class="_2020-2023">2020 - 2023</div>
-          <div class="_2023-NOW">2023 - NOW</div>
-          <div class="iconly-regular-outline-login">
-            <svg
-              class="login"
-              width="19"
-              height="20"
-              viewBox="0 0 19 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M12.791 10.75H0.75C0.336 10.75 0 10.414 0 10C0 9.586 0.336 9.25 0.75 9.25H12.791C13.205 9.25 13.541 9.586 13.541 10C13.541 10.414 13.205 10.75 12.791 10.75Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M9.86328 13.665C9.67128 13.665 9.47828 13.592 9.33228 13.444C9.03928 13.15 9.04128 12.676 9.33428 12.384L11.7283 9.99998L9.33428 7.61498C9.04128 7.32298 9.03928 6.84898 9.33228 6.55498C9.62528 6.26098 10.0993 6.26098 10.3923 6.55298L13.3213 9.46898C13.4633 9.60898 13.5423 9.80098 13.5423 9.99998C13.5423 10.199 13.4633 10.391 13.3213 10.531L10.3923 13.446C10.2463 13.592 10.0543 13.665 9.86328 13.665Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M14.042 20H9.15697C6.71797 20 4.73297 18.015 4.73297 15.575V14.633C4.73297 14.219 5.06897 13.883 5.48297 13.883C5.89697 13.883 6.23297 14.219 6.23297 14.633V15.575C6.23297 17.187 7.54497 18.5 9.15697 18.5H14.042C15.661 18.5 16.978 17.184 16.978 15.564V4.425C16.978 2.813 15.665 1.5 14.053 1.5H9.16797C7.54997 1.5 6.23297 2.816 6.23297 4.434V5.367C6.23297 5.781 5.89697 6.117 5.48297 6.117C5.06897 6.117 4.73297 5.781 4.73297 5.367V4.434C4.73297 1.989 6.72297 0 9.16797 0H14.053C16.492 0 18.478 1.985 18.478 4.425V15.564C18.478 18.01 16.487 20 14.042 20Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-            </svg>
-          </div>
-          <div class="iconly-regular-outline-login2">
-            <svg
-              class="login2"
-              width="19"
-              height="20"
-              viewBox="0 0 19 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M12.791 10.75H0.75C0.336 10.75 0 10.414 0 10C0 9.586 0.336 9.25 0.75 9.25H12.791C13.205 9.25 13.541 9.586 13.541 10C13.541 10.414 13.205 10.75 12.791 10.75Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M9.86328 13.665C9.67128 13.665 9.47828 13.592 9.33228 13.444C9.03928 13.15 9.04128 12.676 9.33428 12.384L11.7283 9.99998L9.33428 7.61498C9.04128 7.32298 9.03928 6.84898 9.33228 6.55498C9.62528 6.26098 10.0993 6.26098 10.3923 6.55298L13.3213 9.46898C13.4633 9.60898 13.5423 9.80098 13.5423 9.99998C13.5423 10.199 13.4633 10.391 13.3213 10.531L10.3923 13.446C10.2463 13.592 10.0543 13.665 9.86328 13.665Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M14.042 20H9.15703C6.71803 20 4.73303 18.015 4.73303 15.575V14.633C4.73303 14.219 5.06903 13.883 5.48303 13.883C5.89703 13.883 6.23303 14.219 6.23303 14.633V15.575C6.23303 17.187 7.54503 18.5 9.15703 18.5H14.042C15.661 18.5 16.978 17.184 16.978 15.564V4.425C16.978 2.813 15.665 1.5 14.053 1.5H9.16803C7.55003 1.5 6.23303 2.816 6.23303 4.434V5.367C6.23303 5.781 5.89703 6.117 5.48303 6.117C5.06903 6.117 4.73303 5.781 4.73303 5.367V4.434C4.73303 1.989 6.72303 0 9.16803 0H14.053C16.492 0 18.478 1.985 18.478 4.425V15.564C18.478 18.01 16.487 20 14.042 20Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-            </svg>
-          </div>
-          <div class="iconly-regular-outline-logout">
-            <svg
-              class="logout"
-              width="21"
-              height="20"
-              viewBox="0 0 21 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M9.31924 20H4.43324C1.98924 20 0.000244141 18.011 0.000244141 15.565V4.436C0.000244141 1.99 1.98924 0 4.43324 0H9.30824C11.7542 0 13.7442 1.99 13.7442 4.436V5.368C13.7442 5.782 13.4082 6.118 12.9942 6.118C12.5802 6.118 12.2442 5.782 12.2442 5.368V4.436C12.2442 2.816 10.9272 1.5 9.30824 1.5H4.43324C2.81624 1.5 1.50024 2.816 1.50024 4.436V15.565C1.50024 17.184 2.81624 18.5 4.43324 18.5H9.31924C10.9312 18.5 12.2442 17.188 12.2442 15.576V14.633C12.2442 14.219 12.5802 13.883 12.9942 13.883C13.4082 13.883 13.7442 14.219 13.7442 14.633V15.576C13.7442 18.016 11.7582 20 9.31924 20Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <mask
-                id="mask0_48_115"
-                style="mask-type: luminance"
-                maskUnits="userSpaceOnUse"
-                x="6"
-                y="9"
-                width="15"
-                height="2"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M6.99609 9.25H20.537V10.75H6.99609V9.25Z"
-                  fill="white"
-                />
-              </mask>
-              <g mask="url(#mask0_48_115)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M19.7871 10.75H7.74609C7.33209 10.75 6.99609 10.414 6.99609 10C6.99609 9.586 7.33209 9.25 7.74609 9.25H19.7871C20.2011 9.25 20.5371 9.586 20.5371 10C20.5371 10.414 20.2011 10.75 19.7871 10.75Z"
-                  fill="#FEE0C6"
-                  fill-opacity="0.7"
-                />
-              </g>
-              <mask
-                id="mask1_48_115"
-                style="mask-type: luminance"
-                maskUnits="userSpaceOnUse"
-                x="16"
-                y="6"
-                width="5"
-                height="8"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M16.1096 6.33527H20.537V13.666H16.1096V6.33527Z"
-                  fill="white"
-                />
-              </mask>
-              <g mask="url(#mask1_48_115)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M16.8594 13.666C16.6674 13.666 16.4744 13.593 16.3284 13.445C16.0364 13.151 16.0374 12.677 16.3304 12.385L18.7244 10L16.3304 7.61602C16.0374 7.32402 16.0354 6.85002 16.3284 6.55602C16.6204 6.26202 17.0944 6.26202 17.3884 6.55402L20.3164 9.46902C20.4584 9.60902 20.5374 9.80102 20.5374 10C20.5374 10.199 20.4584 10.391 20.3164 10.531L17.3884 13.447C17.2424 13.593 17.0504 13.666 16.8594 13.666Z"
-                  fill="#FEE0C6"
-                  fill-opacity="0.7"
-                />
-              </g>
-            </svg>
-          </div>
-          <div class="iconly-regular-outline-login3">
-            <svg
-              class="login3"
-              width="19"
-              height="20"
-              viewBox="0 0 19 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M12.791 10.75H0.75C0.336 10.75 0 10.414 0 10C0 9.586 0.336 9.25 0.75 9.25H12.791C13.205 9.25 13.541 9.586 13.541 10C13.541 10.414 13.205 10.75 12.791 10.75Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M9.86328 13.665C9.67128 13.665 9.47828 13.592 9.33228 13.444C9.03928 13.15 9.04128 12.676 9.33428 12.384L11.7283 9.99998L9.33428 7.61498C9.04128 7.32298 9.03928 6.84898 9.33228 6.55498C9.62528 6.26098 10.0993 6.26098 10.3923 6.55298L13.3213 9.46898C13.4633 9.60898 13.5423 9.80098 13.5423 9.99998C13.5423 10.199 13.4633 10.391 13.3213 10.531L10.3923 13.446C10.2463 13.592 10.0543 13.665 9.86328 13.665Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M14.042 20H9.15703C6.71803 20 4.73303 18.015 4.73303 15.575V14.633C4.73303 14.219 5.06903 13.883 5.48303 13.883C5.89703 13.883 6.23303 14.219 6.23303 14.633V15.575C6.23303 17.187 7.54503 18.5 9.15703 18.5H14.042C15.661 18.5 16.978 17.184 16.978 15.564V4.425C16.978 2.813 15.665 1.5 14.053 1.5H9.16803C7.55003 1.5 6.23303 2.816 6.23303 4.434V5.367C6.23303 5.781 5.89703 6.117 5.48303 6.117C5.06903 6.117 4.73303 5.781 4.73303 5.367V4.434C4.73303 1.989 6.72303 0 9.16803 0H14.053C16.492 0 18.478 1.985 18.478 4.425V15.564C18.478 18.01 16.487 20 14.042 20Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-            </svg>
-          </div>
-          <div class="iconly-regular-outline-logout2">
-            <svg
-              class="logout2"
-              width="21"
-              height="20"
-              viewBox="0 0 21 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M9.31924 20H4.43324C1.98924 20 0.000244141 18.011 0.000244141 15.565V4.436C0.000244141 1.99 1.98924 0 4.43324 0H9.30824C11.7542 0 13.7442 1.99 13.7442 4.436V5.368C13.7442 5.782 13.4082 6.118 12.9942 6.118C12.5802 6.118 12.2442 5.782 12.2442 5.368V4.436C12.2442 2.816 10.9272 1.5 9.30824 1.5H4.43324C2.81624 1.5 1.50024 2.816 1.50024 4.436V15.565C1.50024 17.184 2.81624 18.5 4.43324 18.5H9.31924C10.9312 18.5 12.2442 17.188 12.2442 15.576V14.633C12.2442 14.219 12.5802 13.883 12.9942 13.883C13.4082 13.883 13.7442 14.219 13.7442 14.633V15.576C13.7442 18.016 11.7582 20 9.31924 20Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <mask
-                id="mask0_48_123"
-                style="mask-type: luminance"
-                maskUnits="userSpaceOnUse"
-                x="6"
-                y="9"
-                width="15"
-                height="2"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M6.99609 9.25H20.537V10.75H6.99609V9.25Z"
-                  fill="white"
-                />
-              </mask>
-              <g mask="url(#mask0_48_123)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M19.7871 10.75H7.74609C7.33209 10.75 6.99609 10.414 6.99609 10C6.99609 9.586 7.33209 9.25 7.74609 9.25H19.7871C20.2011 9.25 20.5371 9.586 20.5371 10C20.5371 10.414 20.2011 10.75 19.7871 10.75Z"
-                  fill="#FEE0C6"
-                  fill-opacity="0.7"
-                />
-              </g>
-              <mask
-                id="mask1_48_123"
-                style="mask-type: luminance"
-                maskUnits="userSpaceOnUse"
-                x="16"
-                y="6"
-                width="5"
-                height="8"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M16.1096 6.33527H20.537V13.666H16.1096V6.33527Z"
-                  fill="white"
-                />
-              </mask>
-              <g mask="url(#mask1_48_123)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M16.8594 13.666C16.6674 13.666 16.4744 13.593 16.3284 13.445C16.0364 13.151 16.0374 12.677 16.3304 12.385L18.7244 10L16.3304 7.61602C16.0374 7.32402 16.0354 6.85002 16.3284 6.55602C16.6204 6.26202 17.0944 6.26202 17.3884 6.55402L20.3164 9.46902C20.4584 9.60902 20.5374 9.80102 20.5374 10C20.5374 10.199 20.4584 10.391 20.3164 10.531L17.3884 13.447C17.2424 13.593 17.0504 13.666 16.8594 13.666Z"
-                  fill="#FEE0C6"
-                  fill-opacity="0.7"
-                />
-              </g>
-            </svg>
-          </div>
-          <div class="iconly-regular-outline-logout3">
-            <svg
-              class="logout3"
-              width="21"
-              height="20"
-              viewBox="0 0 21 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M9.31924 20H4.43324C1.98924 20 0.000244141 18.011 0.000244141 15.565V4.436C0.000244141 1.99 1.98924 0 4.43324 0H9.30824C11.7542 0 13.7442 1.99 13.7442 4.436V5.368C13.7442 5.782 13.4082 6.118 12.9942 6.118C12.5802 6.118 12.2442 5.782 12.2442 5.368V4.436C12.2442 2.816 10.9272 1.5 9.30824 1.5H4.43324C2.81624 1.5 1.50024 2.816 1.50024 4.436V15.565C1.50024 17.184 2.81624 18.5 4.43324 18.5H9.31924C10.9312 18.5 12.2442 17.188 12.2442 15.576V14.633C12.2442 14.219 12.5802 13.883 12.9942 13.883C13.4082 13.883 13.7442 14.219 13.7442 14.633V15.576C13.7442 18.016 11.7582 20 9.31924 20Z"
-                fill="#FEE0C6"
-                fill-opacity="0.7"
-              />
-              <mask
-                id="mask0_48_131"
-                style="mask-type: luminance"
-                maskUnits="userSpaceOnUse"
-                x="6"
-                y="9"
-                width="15"
-                height="2"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M6.99609 9.25H20.537V10.75H6.99609V9.25Z"
-                  fill="white"
-                />
-              </mask>
-              <g mask="url(#mask0_48_131)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M19.7871 10.75H7.74609C7.33209 10.75 6.99609 10.414 6.99609 10C6.99609 9.586 7.33209 9.25 7.74609 9.25H19.7871C20.2011 9.25 20.5371 9.586 20.5371 10C20.5371 10.414 20.2011 10.75 19.7871 10.75Z"
-                  fill="#FEE0C6"
-                  fill-opacity="0.7"
-                />
-              </g>
-              <mask
-                id="mask1_48_131"
-                style="mask-type: luminance"
-                maskUnits="userSpaceOnUse"
-                x="16"
-                y="6"
-                width="5"
-                height="8"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M16.1096 6.33527H20.537V13.666H16.1096V6.33527Z"
-                  fill="white"
-                />
-              </mask>
-              <g mask="url(#mask1_48_131)">
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M16.8594 13.666C16.6674 13.666 16.4744 13.593 16.3284 13.445C16.0364 13.151 16.0374 12.677 16.3304 12.385L18.7244 10L16.3304 7.61602C16.0374 7.32402 16.0354 6.85002 16.3284 6.55602C16.6204 6.26202 17.0944 6.26202 17.3884 6.55402L20.3164 9.46902C20.4584 9.60902 20.5374 9.80102 20.5374 10C20.5374 10.199 20.4584 10.391 20.3164 10.531L17.3884 13.447C17.2424 13.593 17.0504 13.666 16.8594 13.666Z"
-                  fill="#FEE0C6"
-                  fill-opacity="0.7"
-                />
-              </g>
-            </svg>
-          </div>
-          <div class="ellipse-6"></div>
-          <div class="ellipse-7"></div>
-          <div class="ellipse-8"></div>
-          <div class="ellipse-9"></div>
         </div>
-        <div class="ellipse-10"></div>
-        <div class="ellipse-11"></div>
-        <div class="experience">
-          <div class="_2021">
-            <div class="rectangle-28">
-              <div class="teks-2021">
-                Publishing an anthology book <br />“Ask-i Ilmi”
+      </section>
+
+
+
+
+
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <h1 class="title-font sm:text-4xl text-center text-3xl mb-2 font-medium text-white">Education</h1>
+        <div class="container px-5 pt-10 pb-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/3">
+              <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2020-2023</h2>
+                <h1 class="title-font sm:text-2xl text-xl font-medium pt-3 text-white mb-3">MA Zainul Hasan 1 Genggong</h1>
+                <p class="leading-relaxed mb-3">Mempelajari ilmu MIPA (Matematika, dan Ilmu Pengetahuan Alam) </p><br><br>
+                <a href="https://mazainulhasan1.sch.id/" class="text-pink-400 inline-flex hover:text-pink-500 items-center">Go to Profile
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-pink-100 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">91</span>
+                  <span class="text-gray-500 inline-flex items-center leading-none text-sm"> 100</span>
+                </div>
               </div>
             </div>
-            <div class="rectangle-25">
-              <div class="_20212">2021</div>
-            </div>
-          </div>
-          <div class="_2022">
-            <div class="rectangle-29">
-              <div class="teks-2022">
-                Global Certification of Web Design Basics <br />
-                OSIS Secretary MA Zainul <br />Hasan Genggong <br />
-                The 1st winner of the Scratch Game Programming
+            <div class="p-4 lg:w-1/3">
+              <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2021-2023</h2>
+                <h1 class="title-font sm:text-2xl text-xl font-medium text-white pt-3 mb-3">Prodistik ITS Surabaya</h1>
+                <p class="leading-relaxed mb-3">Mempelajari basic pemrograman, HTML CSS dan JavaScript serta membuat proyek Web Sederhana</p><br><br>
+                <a href="https://www.its.ac.id/prodistik/" class="text-pink-400 inline-flex hover:text-pink-500 items-center">Go to Profile
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-pink-100 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">3.5</span>
+                  <span class="text-gray-500 inline-flex items-center leading-none text-sm"> 4.0</span>
+                </div>
               </div>
             </div>
-            <div class="rectangle-26">
-              <div class="_20222">2022</div>
-            </div>
-          </div>
-          <div class="_2023">
-            <div class="rectangle-30">
-              <div class="teks-2023">
-                The 2nd winner of the Front End Web Final Project <br />
-                Scholarships for English courses in Pare <br />
-                International certification for Microsoft Word 2019
+            <div class="p-4 lg:w-1/3">
+              <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2023-NOW</h2>
+                <h1 class="title-font sm:text-2xl text-xl font-medium pt-3 text-white mb-3">Universitas Negeri Surabaya</h1>
+                <p class="leading-relaxed mb-3">Mempelajari hal yang berkaitan dengan IT di program studi S1 Teknik Informatika</p><br><br>
+                <a href="https://www.unesa.ac.id/" class="text-pink-400 inline-flex hover:text-pink-500 items-center">Go to Profile
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                  <span class="text-pink-100 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">3.85</span>
+                  <span class="text-gray-500 inline-flex items-center leading-none text-sm"> 4.0</span>
+                </div>
               </div>
             </div>
-            <div class="rectangle-27">
-              <div class="_20232">2023</div>
+          </div>
+        </div>
+      </section>
+
+
+      
+
+
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-15 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/2 md:w-full">
+              <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
+                <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <div class="flex-grow">
+                  <h2 class="text-white text-lg title-font font-medium mb-3">Shooting Stars</h2>
+                  <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <a class="mt-3 text-pink-400 inline-flex items-center">Learn More
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2 md:w-full">
+              <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
+                <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 flex-shrink-0">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="flex-grow">
+                  <h2 class="text-white text-lg title-font font-medium mb-3">The Catalyzer</h2>
+                  <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <a class="mt-3 text-pink-400 inline-flex items-center">Learn More
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-- =========================== skills  =============================== -->
-      <div class="skills">
-        <div class="ellipse-12"></div>
-        <div class="ellipse-13"></div>
-        <img class="separator-black-3" src="images/separator.png" />
-        <h2>Skills</h2>
-        <div class="usingnow">
-          <div class="using-now">USING NOW:</div>
-          <img class="image-22" src="images/html.png" />
-          <img class="image-23" src="images/css.png" />
-          <img class="image-24" src="images/js.png" />
-          <img class="image-25" src="images/git.png" />
-          <img class="image-26" src="images/bootstrap.png" />
-          <img class="image-27" src="images/figma.png" />
-          <img class="image-28" src="images/cpp.png" />
-        </div>
-        <div class="learning">
-          <div class="learning2">LEARNING:</div>
-          <img class="image-30" src="images/react.png" />
-          <img class="image-31" src="images/nodejs.png" />
-        </div>
-        <div class="other">
-          <div class="other-skills">OTHER SKILLS:</div>
-          <img class="image-32" src="images/english.png" />
-          <img class="image-33" src="images/scratch.png" />
-        </div>
-      </div>
 
-      <!-- ====================== contact ======================== -->
-      <div class="contact">
-        <div class="get-in-touch">Get in touch</div>
-        <h4 class="looking">
-          Looking for help? Fill the form and connect with me <br /><br /><br />
-        </h4>
-        <div class="teks-getintouch">
-          <h4>Location</h4>
-          <h6>Tenggarang, Bondowoso</h6>
-          <br />
-          <h4>Gmail <br /></h4>
-          <h6>elokfaiqoh885@gmail.com</h6>
-        </div>
-        <div class="let-s-connect">Let’s connect</div>
-        <div class="iconly-regular-outline-home">
-          <svg
-            class="home"
-            width="14"
-            height="14"
-            viewBox="0 0 14 14"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <mask
-              id="mask0_44_88"
-              style="mask-type: luminance"
-              maskUnits="userSpaceOnUse"
-              x="0"
-              y="0"
-              width="14"
-              height="14"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M0.25 0.843018H13.0624V13.648H0.25V0.843018Z"
-                fill="white"
-              />
-            </mask>
-            <g mask="url(#mask0_44_88)">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M7.573 9.35265C8.3255 9.35265 8.938 9.93201 8.938 10.6442V12.4757C8.938 12.6288 9.06675 12.7514 9.23175 12.755H10.423C11.3618 12.755 12.1249 12.0369 12.1249 11.1545V5.95981C12.1205 5.65613 11.9686 5.37032 11.708 5.18038L7.58738 2.04953C7.03425 1.63213 6.2605 1.63213 5.7055 2.05073L1.613 5.17918C1.34238 5.37509 1.1905 5.6609 1.18738 5.96993V11.1545C1.18738 12.0369 1.9505 12.755 2.88925 12.755H4.09175C4.26113 12.755 4.39863 12.627 4.39863 12.4698C4.39863 12.4353 4.403 12.4007 4.4105 12.368V10.6442C4.4105 9.93618 5.01925 9.35741 5.76613 9.35265H7.573ZM10.423 13.6482H9.2205C8.53175 13.6327 8.0005 13.1176 8.0005 12.4757V10.6442C8.0005 10.4244 7.80863 10.2458 7.573 10.2458H5.76925C5.53863 10.247 5.348 10.4262 5.348 10.6442V12.4698C5.348 12.5144 5.34175 12.5573 5.32863 12.5978C5.26113 13.1873 4.73238 13.6482 4.09175 13.6482H2.88925C1.43363 13.6482 0.249878 12.5293 0.249878 11.1545V5.96576C0.256128 5.37389 0.542378 4.83204 1.03675 4.47537L5.12113 1.35227C6.0205 0.673465 7.27363 0.673465 8.17113 1.35108L12.2849 4.47716C12.768 4.82787 13.0543 5.36854 13.0624 5.95326V11.1545C13.0624 12.5293 11.8786 13.6482 10.423 13.6482V13.6482Z"
-                fill="white"
-              />
-            </g>
-          </svg>
-        </div>
-        <div class="iconly-regular-outline-send">
-          <svg
-            class="send"
-            width="13"
-            height="12"
-            viewBox="0 0 13 12"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <mask
-              id="mask0_44_96"
-              style="mask-type: luminance"
-              maskUnits="userSpaceOnUse"
-              x="0"
-              y="0"
-              width="13"
-              height="12"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M0.25 0.207275H12.4369V11.8178H0.25V0.207275Z"
-                fill="white"
-              />
-            </mask>
-            <g mask="url(#mask0_44_96)">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M5.75309 7.24394L8.03872 10.7767C8.13872 10.9315 8.29497 10.9297 8.35809 10.9214C8.42122 10.9131 8.57309 10.8761 8.62809 10.7005L11.4862 1.50387C11.5362 1.34131 11.4443 1.23056 11.4031 1.19126C11.3631 1.15196 11.2487 1.068 11.0831 1.11266L1.42309 3.80764C1.23997 3.85885 1.19997 4.00533 1.19122 4.06547C1.18247 4.1268 1.17997 4.27863 1.34184 4.37569L5.09247 6.61039L8.40622 3.42001C8.58809 3.24495 8.88497 3.24316 9.06934 3.41643C9.25372 3.58971 9.25497 3.87314 9.07309 4.0482L5.75309 7.24394ZM8.30934 11.8181C7.87434 11.8181 7.47559 11.6074 7.24059 11.2453L4.81747 7.49939L0.844966 5.1325C0.416841 4.87706 0.193091 4.42214 0.262466 3.944C0.331216 3.46585 0.675591 3.08596 1.15934 2.9508L10.8193 0.25582C11.2637 0.131968 11.74 0.24927 12.0675 0.560092C12.395 0.87389 12.5168 1.33238 12.3843 1.75753L9.52622 10.9536C9.38309 11.4162 8.98309 11.7431 8.48247 11.8068C8.42372 11.814 8.36684 11.8181 8.30934 11.8181V11.8181Z"
-                fill="white"
-              />
-            </g>
-          </svg>
-        </div>
-        <form id="contact-form" class="form" action="https://formspree.io/f/xeqyaeoj" method="POST">
-          <input type="text" name="name" class="your-name" placeholder="Your Name" />
-          <input type="email" name="email" class="email" placeholder="Email" />
-          <input type="subject" name="subject" class="subject" placeholder="Subject" />
-          <textarea
-            type="text"
-            class="how-we-can-help"
-            placeholder="How we can help?"
-            name="massage"
-          ></textarea>
-          <button class="send-message">Send Message</button>
-          <div class="loading">Loading&#8230;</div>
-        </form>
-      </div>
 
-      <!-- =========================== footer =========================== -->
-      <div class="footer">
-        <h6 class="back-to-top">BACK TO TOP</h6>
-        <h4 class="h4_footer">
-          <span>
-            <span class="_2024-elok-faiqoh-all-rights-reserved-span"
-              >@2024 Elok Faiqoh
-            </span>
-            <span class="_2024-elok-faiqoh-all-rights-reserved-span2"
-              >All Rights Reserved.</span
-            >
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
+                  <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>6
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
+                  <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <div class="flex items-center flex-wrap">
+                    <a class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>6
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3">
+              <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
+                <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
+                <div class="p-6">
+                  <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
+                  <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                  <div class="flex items-center flex-wrap ">
+                    <a class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                    <span class="text-gray-500 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>1.2K
+                    </span>
+                    <span class="text-gray-500 inline-flex items-center leading-none text-sm">
+                      <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>6
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Master Cleanse Reliac Heirloom</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/601x361">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">Neptune</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">Holden Caulfield</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-pink-400 mb-1">THE SUBTITLE</h2>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">Alper Kamu</h1>
+                  <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      
+
+
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-0 py-24 mx-auto">
+          <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-500 mb-8" viewBox="0 0 975.036 975.036">
+              <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+            </svg>
+            <p class="leading-relaxed text-lg">Programming itu skill yang harus dilatih, dipelajari, dan diasah terus menerus, sama seperti belajar keahlian lain. Kuantitas belajar tidak menentukan kita lebih cepat menguasai coding, tapi kualitas yang terpenting. Bagi saya, coding itu menantang. Maka, ketika memutuskan untuk mempelajari coding, berarti kalian sudah berkomitmen untuk tidak berhenti belajar</p>
+            <span class="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"></span>
+            <h2 class="text-white font-medium title-font tracking-wider pb-3 text-sm">SANDHIKA GALIH</h2>
+            <p class="text-gray-500">Dosen Para Programmer Indonesia</p>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section id="info" class="text-gray-400 bg-gray-900 body-font relative">
+        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+            <iframe id="maps" width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.349756136705!2d112.72449999999999!3d-7.3145493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb7a35f1c905%3A0x5ee07dda2195af8a!2sJl.%20Ketintang%20Wiyata%20No.48%2C%20RT.003%2FRW.04%2C%20Ketintang%2C%20Kec.%20Gayungan%2C%20Surabaya%2C%20Jawa%20Timur%2060231!5e0!3m2!1sid!2sid!4v1719372810943!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="filter: grayscale(1) contrast(1.2) opacity(0.16);"></iframe>
+            <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+              <div class="lg:w-1/2 px-6">
+                <h2 class="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
+                <p class="mt-1">Jl. Ketintang Wiyata No.48, RT.003/RW.04, Ketintang, Kec. Gayungan, Surabaya</p>
+              </div>
+              <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
+                <a class="text-pink-400 pt-3 leading-relaxed">elokfaiqoh885@gmail.com</a>
+                <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">COUNTRY</h2>
+                <p class="leading-relaxed">Indonesia</p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+            <h2 class="text-white text-lg mb-1 font-medium title-font">Feedback</h2>
+            <p class="leading-relaxed mb-5">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+            <div class="relative mb-4">
+              <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
+              <input type="text" id="name" name="name" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
+              <textarea id="message" name="message" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+            <button class="text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Button</button>
+            <p class="text-xs text-gray-400 text-opacity-90 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <footer class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2024 Portfolio Web —
+            <a class="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@elokfaiqoh</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="ml-3 text-gray-400" href="https://www.instagram.com/ee_lok/" target="_blank" rel="noopener noreferrer">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-400" href="https://www.linkedin.com/in/elokfaiqohhh/" target="_blank" rel="noopener noreferrer">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
           </span>
-        </h4>
-        <svg
-          class="ic-baseline-double-arrow"
-          width="15"
-          height="15"
-          viewBox="0 0 15 15"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.125 5.3125V8.125L7.5 5L11.875 8.125V5.3125L7.5 2.1875L3.125 5.3125Z"
-            fill="white"
-          />
-          <path
-            d="M3.125 9.6875V12.5L7.5 9.375L11.875 12.5V9.6875L7.5 6.5625L3.125 9.6875Z"
-            fill="white"
-          />
-        </svg>
-        <svg
-          class="ic-baseline-double-arrow"
-          width="15"
-          height="15"
-          viewBox="0 0 15 15"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.125 5.3125V8.125L7.5 5L11.875 8.125V5.3125L7.5 2.1875L3.125 5.3125Z"
-            fill="white"
-          />
-          <path
-            d="M3.125 9.6875V12.5L7.5 9.375L11.875 12.5V9.6875L7.5 6.5625L3.125 9.6875Z"
-            fill="white"
-          />
-        </svg>
-        <div class="icon-sosmed">
-          <a href="https://www.linkedin.com/in/elokfaiqohhh/">
-            <svg
-              class="vector6"
-              width="30"
-              height="31"
-              viewBox="0 0 30 31"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M27.5887 0.259766H2.41125C1.08 0.259766 0 1.33977 0 2.67102V27.8485C0 29.1798 1.08 30.2598 2.41125 30.2598H27.5887C28.92 30.2598 30 29.1798 30 27.8485V2.67102C30 1.33977 28.92 0.259766 27.5887 0.259766ZM27.5887 27.8598C10.7963 27.856 2.4 27.8523 2.4 27.8485C2.40375 11.056 2.4075 2.65977 2.41125 2.65977C19.2038 2.66352 27.6 2.66727 27.6 2.67102C27.5962 19.4635 27.5925 27.8598 27.5887 27.8598ZM4.4475 11.506H8.89875V25.8235H4.4475V11.506ZM6.675 9.54852C8.09625 9.54852 9.255 8.39352 9.255 6.96852C9.255 6.6297 9.18827 6.29421 9.05861 5.98119C8.92895 5.66817 8.73891 5.38376 8.49934 5.14418C8.25976 4.9046 7.97534 4.71456 7.66232 4.58491C7.3493 4.45525 7.01381 4.38852 6.675 4.38852C6.33619 4.38852 6.0007 4.45525 5.68768 4.58491C5.37466 4.71456 5.09024 4.9046 4.85067 5.14418C4.61109 5.38376 4.42105 5.66817 4.29139 5.98119C4.16173 6.29421 4.095 6.6297 4.095 6.96852C4.09125 8.39352 5.24625 9.54852 6.675 9.54852ZM16.1362 18.7398C16.1362 16.8723 16.4925 15.0648 18.8063 15.0648C21.0863 15.0648 21.12 17.1985 21.12 18.8598V25.8235H25.5675V17.971C25.5675 14.116 24.735 11.1498 20.2313 11.1498C18.0675 11.1498 16.6163 12.3385 16.02 13.4635H15.96V11.506H11.6888V25.8235H16.1362V18.7398Z"
-                fill="white"
-                fill-opacity="0.9"
-              />
-            </svg>
-          </a>
-          <a href="https://www.instagram.com/ee_lok/">
-            <svg
-              class="vector7"
-              width="30"
-              height="30"
-              viewBox="0 0 30 30"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M15 0C10.9223 0 10.4141 0.01969 8.81829 0.0871984C7.2159 0.165958 6.13202 0.414427 5.17565 0.785723C4.17471 1.1636 3.26822 1.75523 2.51938 2.51938C1.7531 3.26647 1.16114 4.17346 0.785723 5.17565C0.414427 6.13202 0.165958 7.2159 0.0871984 8.81829C0.0150019 10.4151 0 10.9223 0 15C0 19.0777 0.01969 19.5859 0.0871984 21.1817C0.165958 22.7794 0.414427 23.868 0.785723 24.8244C1.1636 25.8253 1.75523 26.7318 2.51938 27.4806C3.26647 28.2469 4.17346 28.8389 5.17565 29.2143C6.13202 29.5809 7.22059 29.834 8.81829 29.9128C10.4151 29.985 10.9223 30 15 30C19.0777 30 19.5859 29.9803 21.1817 29.9128C22.7794 29.834 23.868 29.5799 24.8244 29.2143C25.8253 28.8364 26.7318 28.2448 27.4806 27.4806C28.2479 26.7343 28.84 25.8271 29.2143 24.8244C29.5809 23.868 29.834 22.7794 29.9128 21.1817C29.985 19.5849 30 19.0777 30 15C30 10.9223 29.9803 10.4141 29.9128 8.81829C29.834 7.22059 29.5799 6.12639 29.2143 5.17565C28.8364 4.17471 28.2448 3.26822 27.4806 2.51938C26.7343 1.75212 25.8271 1.16 24.8244 0.785723C23.868 0.414427 22.7794 0.165958 21.1817 0.0871984C19.5849 0.0150019 19.0777 0 15 0ZM15 2.70034C19.0046 2.70034 19.4827 2.72003 21.0654 2.78754C22.5253 2.85598 23.3204 3.09976 23.8483 3.30604C24.5009 3.54693 25.0916 3.93035 25.5773 4.42837C26.0744 4.91201 26.4564 5.50133 26.6949 6.15264C26.9012 6.68052 27.145 7.47562 27.2134 8.93549C27.2809 10.5182 27.3006 10.9973 27.3006 15.0009C27.3006 19.0046 27.2809 19.4837 27.2078 21.0664C27.129 22.5263 26.8852 23.3214 26.6799 23.8492C26.3958 24.5534 26.0789 25.0456 25.5557 25.5782C25.0684 26.0731 24.4781 26.4547 23.8267 26.6958C23.3054 26.9021 22.4991 27.1459 21.0336 27.2143C19.4424 27.2818 18.9736 27.3015 14.9587 27.3015C10.9439 27.3015 10.476 27.2818 8.88299 27.2087C7.42312 27.13 6.6177 26.8862 6.08982 26.6808C5.37724 26.3967 4.88874 26.0798 4.36555 25.5566C3.83767 25.0288 3.502 24.5262 3.24322 23.8277C3.03319 23.3064 2.79316 22.5 2.71534 21.0345C2.6619 19.4621 2.63658 18.9746 2.63658 14.9784C2.63658 10.9842 2.6619 10.4957 2.71534 8.90361C2.79316 7.43812 3.03319 6.63364 3.24322 6.11045C3.502 5.39692 3.83861 4.90936 4.36555 4.38148C4.8878 3.85923 5.37724 3.52169 6.08982 3.25728C6.6177 3.05194 7.40343 2.80816 8.86892 2.73503C10.4601 2.67783 10.9289 2.65721 14.9381 2.65721L15 2.70034ZM15 7.30123C13.9886 7.30086 12.9871 7.49979 12.0527 7.88665C11.1182 8.27351 10.2691 8.84072 9.554 9.55587C8.83885 10.271 8.27164 11.1201 7.88477 12.0545C7.49791 12.989 7.29898 13.9905 7.29935 15.0019C7.29898 16.0132 7.49791 17.0148 7.88477 17.9492C8.27164 18.8837 8.83885 19.7327 9.554 20.4479C10.2691 21.163 11.1182 21.7302 12.0527 22.1171C12.9871 22.504 13.9886 22.7029 15 22.7025C16.0114 22.7029 17.0129 22.504 17.9473 22.1171C18.8818 21.7302 19.7309 21.163 20.446 20.4479C21.1612 19.7327 21.7284 18.8837 22.1152 17.9492C22.5021 17.0148 22.701 16.0132 22.7006 15.0019C22.701 13.9905 22.5021 12.989 22.1152 12.0545C21.7284 11.1201 21.1612 10.271 20.446 9.55587C19.7309 8.84072 18.8818 8.27351 17.9473 7.88665C17.0129 7.49979 16.0114 7.30086 15 7.30123ZM15 20.0022C12.2359 20.0022 9.99969 17.766 9.99969 15.0019C9.99969 12.2378 12.2359 10.0016 15 10.0016C17.7641 10.0016 20.0003 12.2378 20.0003 15.0019C20.0003 17.766 17.7641 20.0022 15 20.0022ZM24.8112 6.99369C24.8107 7.47156 24.6205 7.92968 24.2825 8.26742C23.9444 8.60514 23.4861 8.79485 23.0082 8.79485C22.7719 8.79485 22.5379 8.74831 22.3196 8.65789C22.1013 8.56746 21.903 8.43493 21.7359 8.26785C21.5688 8.10077 21.4363 7.90242 21.3459 7.68412C21.2554 7.46582 21.2089 7.23185 21.2089 6.99556C21.2089 6.75928 21.2554 6.5253 21.3459 6.307C21.4363 6.08871 21.5688 5.89035 21.7359 5.72327C21.903 5.55619 22.1013 5.42366 22.3196 5.33324C22.5379 5.24281 22.7719 5.19627 23.0082 5.19627C23.9993 5.19627 24.8112 6.00263 24.8112 6.99369Z"
-                fill="white"
-                fill-opacity="0.9"
-              />
-            </svg>
-          </a>
-          <a href="https://github.com/elokfaiqohh/">
-            <svg
-              class="vector9"
-              width="35"
-              height="35"
-              viewBox="0 0 35 35"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M17.4844 1.46274e-06C7.82422 -0.00390479 0 7.81641 0 17.4688C0 25.1016 4.89453 31.5899 11.7109 33.9727C12.6289 34.2032 12.4883 33.5508 12.4883 33.1055V30.0782C7.1875 30.6992 6.97266 27.1914 6.61719 26.6055C5.89844 25.3789 4.19922 25.0664 4.70703 24.4805C5.91406 23.8594 7.14453 24.6367 8.57031 26.7422C9.60156 28.2696 11.6133 28.0117 12.6328 27.7578C12.8555 26.8399 13.332 26.0196 13.9883 25.3828C8.49609 24.3985 6.20703 21.0469 6.20703 17.0625C6.20703 15.1289 6.84375 13.3516 8.09375 11.918C7.29688 9.5547 8.16797 7.53126 8.28516 7.23048C10.5547 7.02735 12.9141 8.85548 13.0977 9.00001C14.3867 8.65235 15.8594 8.46876 17.5078 8.46876C19.1641 8.46876 20.6406 8.66016 21.9414 9.01173C22.3828 8.67579 24.5703 7.10548 26.6797 7.29688C26.793 7.59766 27.6445 9.57423 26.8945 11.9063C28.1602 13.3438 28.8047 15.1367 28.8047 17.0742C28.8047 21.0664 26.5 24.4219 20.9922 25.3906C21.4639 25.8546 21.8385 26.4079 22.0941 27.0182C22.3496 27.6285 22.481 28.2837 22.4805 28.9453V33.3399C22.5117 33.6914 22.4805 34.0391 23.0664 34.0391C29.9844 31.7071 34.9648 25.1719 34.9648 17.4727C34.9648 7.81641 27.1367 1.46274e-06 17.4844 1.46274e-06Z"
-                fill="white"
-              />
-            </svg>
-          </a>
         </div>
-      </div>
-    </div>
+      </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-    <script src="main.js"></script>
-  </body>
+
+
+
+
+      <script>
+        
+          var typed = new Typed(".auto-type", {
+            strings : ["Elok", "Student", "Programmer", "Elok"],
+            typeSpeed : 150,
+            backSpeed : 150,
+            looped : true,
+        })
+      </script>
+</body>
 </html>
