@@ -6,13 +6,14 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header id="header" class="text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-6 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <a href="#" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <span class="ml-3 text-xl">Elok Faiqoh</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
@@ -44,9 +45,9 @@
 
 
       <section id="intro" class="text-gray-400 bg-gray-900 body-font">
-        <div class="container mx-auto flex px-0 py-24 items-center justify-center flex-col">
+        <div  data-aos="fade-up" data-aos-duration="3000" class="container mx-auto flex px-0 py-24 items-center justify-center flex-col">
           <div class="text-center lg:w-3/3 w-full">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Get to Know Me More</h1>
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Get to Know Me</h1>
             <p class="text-justify  pt-10 pb-3">My name is Elok Faiqoh, a student of informatics Engineering at Surabaya State University. I'm interested in the field of information technology like software developer, or fullstack developer and want to develop a career in that field. On this website, you'll find information about me, from my education, experience, to the projects I've been working on. I hope this information can help you get to know me better. I'm a creative, innovative person with a high learning spirit. I've always been interested in learning new things, especially those related to information technology.</p>
               <p class="text-justify">Thank you for visiting my website.</p><br>
               <p class="text-justify">Greetings,</p>
@@ -63,7 +64,7 @@
         <h1 class="title-font sm:text-4xl text-center text-3xl mb-2 font-medium text-white">Education</h1>
         <div class="container px-5 pt-10 pb-24 mx-auto">
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 lg:w-1/3">
+            <div data-aos="zoom-in-right" data-aos-duration="4000" class="p-4 lg:w-1/3">
               <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2020-2023</h2>
                 <h1 class="title-font sm:text-2xl text-xl font-medium pt-3 text-white mb-3">MA Zainul Hasan 1 Genggong</h1>
@@ -80,7 +81,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 lg:w-1/3">
+            <div data-aos="zoom-in-up" data-aos-duration="4000" class="p-4 lg:w-1/3">
               <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2021-2023</h2>
                 <h1 class="title-font sm:text-2xl text-xl font-medium text-white pt-3 mb-3">Prodistik ITS Surabaya</h1>
@@ -97,7 +98,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 lg:w-1/3">
+            <div data-aos="zoom-in-left" data-aos-duration="4000" class="p-4 lg:w-1/3">
               <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2023-NOW</h2>
                 <h1 class="title-font sm:text-2xl text-xl font-medium pt-3 text-white mb-3">Universitas Negeri Surabaya</h1>
@@ -126,15 +127,15 @@
         <div class="container px-5 py-15 mx-auto flex flex-wrap">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full">
-              <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
+              <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
                 <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 flex-shrink-0">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                   </svg>
                 </div>
                 <div class="flex-grow">
-                  <h2 class="text-white text-lg title-font font-medium mb-3">Shooting Stars</h2>
-                  <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <h2 class="text-white text-lg title-font font-medium mb-3">Soft Skills</h2>
+                  <p class="leading-relaxed text-base">Time Management, Communication, Team Work, Team Coordination, Leadership, Problem Solving</p>
                   <a class="mt-3 text-pink-400 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -144,7 +145,7 @@
               </div>
             </div>
             <div class="p-4 lg:w-1/2 md:w-full">
-              <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
+              <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"  class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
                 <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 flex-shrink-0">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                     <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
@@ -152,8 +153,8 @@
                   </svg>
                 </div>
                 <div class="flex-grow">
-                  <h2 class="text-white text-lg title-font font-medium mb-3">The Catalyzer</h2>
-                  <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <h2 class="text-white text-lg title-font font-medium mb-3">Hard Skill</h2>
+                  <p class="leading-relaxed text-base">HTML, CSS, JavaScript, Tailwind, C++, Git, Scratch, Ms. Office, CorelDraw, Figma, Canva</p>
                   <a class="mt-3 text-pink-400 inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -359,7 +360,6 @@
 
 
 
-
       <section id="info" class="text-gray-400 bg-gray-900 body-font relative">
         <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
           <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -423,17 +423,10 @@
       </footer>
 
 
-
-
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
-        
-          var typed = new Typed(".auto-type", {
-            strings : ["Elok", "Student", "Programmer", "Elok"],
-            typeSpeed : 150,
-            backSpeed : 150,
-            looped : true,
-        })
+        AOS.init();
       </script>
+      <script src="main.js"></script>
 </body>
 </html>
