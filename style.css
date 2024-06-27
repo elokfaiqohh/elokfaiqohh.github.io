@@ -20,11 +20,20 @@
   }
 
 #header{
+    /* background: #111827; */
+    width: 100vw;
+    height: 5rem;
     position: fixed;
-    width: 100%;
-    z-index:9999;
+    top: 0;
+    z-index: 11;
 }
 
+/*mengubah gaya navbar menggunakan javascript*/
+.window-scroll{
+    background-color: #111827ed;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.3);
+} 
+  
 #hero{
     padding-top: 85px;
     background: linear-gradient(0deg, black, #1c2b45);
