@@ -47,6 +47,11 @@
     /* box-shadow: inset 0px 55px 6rem -20px rgb(111 107 129 / 50%); */
 }
 
+#image-apk:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 #info{
     box-shadow: inset 0px -20px 6rem -20px rgb(111 107 129 / 50%);
 }
