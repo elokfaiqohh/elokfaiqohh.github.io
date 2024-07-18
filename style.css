@@ -70,11 +70,16 @@
     }
 
     #hero .container{
-        padding: 5rem 1.5rem;
+        padding: 5rem 1.5rem 0;
     }
 
-    #hero .title-font{
-        font-size: 26px;
+    #hero h1{
+        font-size: 31px;
+        margin-bottom:1rem;
+    }
+
+    #hero h2{
+        font-size: 25px;
     }
 
     #openResume, #learnMore{
