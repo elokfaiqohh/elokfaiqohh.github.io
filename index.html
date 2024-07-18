@@ -14,7 +14,7 @@
     <header id="header" class="text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-6 flex-col md:flex-row items-center">
           <a href="#" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-            <span class="ml-3 text-xl">Elok Faiqoh</span>
+            <span onclick="location.reload()" class="ml-3 text-xl">Elok Faiqoh</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <a href="#intro" class="mr-5 hover:text-pink-200">About me</a>
@@ -30,10 +30,10 @@
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="title-font md:text-6xl text-3xl mb-6 font-bold text-white">Hi, I am <span class="auto-type text-pink-500"></span> </h1>
             <h2 class="title-font sm:text-3xl text-3xl mb-8 font-medium text-white">Junior Front End Web Dev</h2>
-            <p class="mb-8 pr-24">I am a creative, innovative person with a high learning spirit and a love of learning new things.  All about IT.</p>
+            <p id="deskripsi" class="mb-8 pr-24">I am a creative, innovative person with a high learning spirit and a love of learning new things.  All about IT.</p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Button</button>
-              <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
+              <a id="learnMore" href="#intro" class="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Learn More</a>
+              <button id="openResume" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Check My Resume</button>
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -46,11 +46,11 @@
 
       <section id="intro" class="text-gray-400 bg-gray-900 body-font">
         <div  data-aos="fade-up" data-aos-duration="3000" class="container mx-auto flex px-0 py-24 items-center justify-center flex-col">
-          <div class="text-center  px-11 lg:w-3/3 w-full">
+          <div class="text-center py-14 px-11 lg:w-3/3 w-full">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Get to Know Me</h1>
-            <p class="text-justify pt-10">Halo! Perkenalkan nama saya Elok Faiqoh. Saat ini saya sedang menempuh pendidikan di jurusan Teknik Informatika Universitas Negeri Surabaya. Ketertarikan saya yang mendalam pada bidang teknologi informasi, khususnya pengembangan perangkat lunak, membuat saya ingin berkarir sebagai software developer atau fullstack developer.</p>
-              <p class="text-justify">Website ini dibuat sebagai wadah untuk memperkenalkan diri saya kepada Anda. Di sini, Anda bisa menemukan berbagai informasi mengenai saya, mulai dari latar belakang pendidikan, pengalaman, hingga proyek-proyek yang pernah saya kerjakan. Saya harap informasi ini dapat membantu Anda mengenal saya lebih baik.</p>
-              <p class="text-justify  pb-3">Selain memiliki ketertarikan yang besar pada teknologi informasi, saya juga termasuk orang yang kreatif, inovatif, dan memiliki semangat belajar yang tinggi. Dorongan untuk terus belajar dan menggali ilmu baru, terutama yang berkaitan dengan dunia IT, menjadi prinsip yang saya pegang teguh.</p>
+            <p class="text-justify pt-10">Hello! My name is Elok Faiqoh. I am currently pursuing a degree in Informatics Engineering at the State University of Surabaya. My deep interest in information technology, especially software development, drives my aspiration to pursue a career as a <span translate="no"> software developer</span>  or <span translate="no"> full-stack developer.</span> </p>
+              <p class="text-justify">I created this website as a platform to introduce myself to you. Here, you can find various information about me, including my educational background, experiences, and the projects I have worked on. I hope this information helps you get to know me better.</p>
+              <p class="text-justify  pb-3">In addition to my strong interest in information technology, I am a creative, innovative individual with a high enthusiasm for learning. The drive to continually learn and explore new knowledge, particularly in the technology field, is a principle I hold dearly.</p>
               <p class="text-justify">Thank you for visiting my website.</p><br>
               <p class="text-justify">Greetings,</p>
               <p class="text-justify">Elok Faiqoh</p>
@@ -66,11 +66,11 @@
         <h1 class="title-font sm:text-4xl text-center text-3xl mb-2 font-medium text-white">Education</h1>
         <div class="container px-5 pt-10 pb-24 mx-auto">
           <div class="flex flex-wrap -m-4">
-            <div data-aos="zoom-in-right" data-aos-duration="4000" class="p-4 lg:w-1/3">
+            <div data-aos="zoom-in-up" data-aos-duration="4000" class="p-4 lg:w-1/3">
               <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2020-2023</h2>
-                <h1 class="title-font sm:text-2xl text-xl font-medium pt-3 text-white mb-3">MA Zainul Hasan 1 Genggong</h1>
-                <p class="leading-relaxed mb-3">Mempelajari ilmu MIPA (Matematika, dan Ilmu Pengetahuan Alam) </p><br><br>
+                <h1 class="title-font sm:text-2xl text-xl font-medium pt-3 text-white mb-3"><span translate="no">MA Zainul Hasan 1 Genggong</span> </h1>
+                <p class="leading-relaxed mb-3">At <span translate="no"> MA Zainul Hasan</span>, I built a strong foundation in Mathematics and Natural Sciences, developing critical analytical and problem-solving skills essential for scientific exploration.</p><br><br>
                 <a href="https://mazainulhasan1.sch.id/" class="text-pink-400 inline-flex hover:text-pink-500 items-center">Go to Profile
                   <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M5 12h14"></path>
@@ -87,7 +87,7 @@
               <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2021-2023</h2>
                 <h1 class="title-font sm:text-2xl text-xl font-medium text-white pt-3 mb-3">Prodistik ITS Surabaya</h1>
-                <p class="leading-relaxed mb-3">Mempelajari basic pemrograman, HTML CSS dan JavaScript serta membuat proyek Web Sederhana</p><br><br>
+                <p class="leading-relaxed mb-3">Through the Prodistik program, I mastered the basics of HTML, CSS, and JavaScript, creating simple web projects that sparked my passion for software development.</p><br><br>
                 <a href="https://www.its.ac.id/prodistik/" class="text-pink-400 inline-flex hover:text-pink-500 items-center">Go to Profile
                   <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M5 12h14"></path>
@@ -100,11 +100,11 @@
                 </div>
               </div>
             </div>
-            <div data-aos="zoom-in-left" data-aos-duration="4000" class="p-4 lg:w-1/3">
+            <div data-aos="zoom-in-up" data-aos-duration="4000" class="p-4 lg:w-1/3">
               <div class="h-full bg-gray-800 bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">2023-NOW</h2>
                 <h1 class="title-font sm:text-2xl text-xl font-medium pt-3 text-white mb-3">Universitas Negeri Surabaya</h1>
-                <p class="leading-relaxed mb-3">Mempelajari hal yang berkaitan dengan IT di program studi S1 Teknik Informatika</p><br><br>
+                <p class="leading-relaxed mb-3">Currently pursuing a degree in Informatics Engineering, I am deepening my expertise in IT, focusing on software development and innovative tech solutions."</p><br><br>
                 <a href="https://www.unesa.ac.id/" class="text-pink-400 inline-flex hover:text-pink-500 items-center">Go to Profile
                   <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M5 12h14"></path>
@@ -171,16 +171,16 @@
 
 
 
-      <section class="text-gray-400 bg-gray-900 body-font">
+      <section id="project" class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
+            <div  data-aos="zoom-in-up" data-aos-duration="4000"  class="p-4 md:w-1/3">
               <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
                 <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/sekolah.png" alt="blog">
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Website</h2>
-                  <h1 class="title-font text-lg font-medium text-white mb-3">Sekolah MA Zainul Hasan</h1>
-                  <p class="leading-relaxed mb-3">Web ini disusun pada Januari 2023 sebagai tugas akhir pada program Prodistik menggunakan HTML, CSS dan JavaScript.</p>
+                  <h1 class="title-font text-lg font-medium text-white mb-3"><span translate="no">MA Zainul Hasan</span> School</h1>
+                  <p class="leading-relaxed mb-3">This website was created in January 2023 as a final project for the Prodistik program using HTML, CSS, and JavaScript. </p>
                   <div class="flex items-center flex-wrap ">
                     <a href="https://elokfaiqohh.github.io/Web-MA-Zainul-Hasan-1-Genggong/" target="_blank" class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -198,13 +198,13 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
+            <div  data-aos="zoom-in-up" data-aos-duration="4000" class="p-4 md:w-1/3">
               <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
                 <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/determinan.png" alt="blog">
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Website</h2>
-                  <h1 class="title-font text-lg font-medium text-white mb-3">Penghitung Determinan</h1>
-                  <p class="leading-relaxed mb-3">Web ini disusun untuk menyelesaikan tugas UAS Mata Kuliah Aljabar Linear semester 1 menggunakan HTML, CSS dan JavaScript </p>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">Determinant Calculator</h1>
+                  <p class="leading-relaxed mb-3">This website was developed to complete the final exam project for the Linear Algebra course in the first semester, also using HTML, CSS, and JavaScript. </p>
                   <div class="flex items-center flex-wrap">
                     <a href="https://elokfaiqohh.github.io/ProjectUAS/" target="_blank" class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -222,13 +222,13 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
+            <div  data-aos="zoom-in-up" data-aos-duration="4000" class="p-4 md:w-1/3">
               <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
                 <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/wordpress.png" alt="blog">
                 <div class="p-6">
                   <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Website</h2>
-                  <h1 class="title-font text-lg font-medium text-white mb-3">Remake Web Yellow Fit Kitchen</h1>
-                  <p class="leading-relaxed mb-3">Web ini disusun menggunakan Wordpress Elementor, sebagai training saat persiapan awal magang di Internship Hack Management.</p>
+                  <h1 class="title-font text-lg font-medium text-white mb-3">Remake Web <span translate="no"> Yellow Fit Kitchen</span> </h1>
+                  <p class="leading-relaxed mb-3">This website was built using <span translate="no"> WordPress Elementor</span>  as part of the training during my initial internship preparation at <span translate="no"> Internship Hack Management. </span> </p>
                   <div class="flex items-center flex-wrap ">
                     <a href="https://lnkd.in/gpFNinJr" target="_blank" class="text-pink-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                       <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -259,26 +259,26 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">Skill and Software</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">Berikut ini adalah bahasa pemrograman yang saya kuasai serta beberapa aplikasi pendukung dan hardskill lainnya.</p>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">Here are the programming languages I am proficient in, along with some supporting applications and other hard skills:</p>
             <div class="flex mt-6 justify-center">
               <div class="w-16 h-1 rounded-full bg-pink-500 inline-flex"></div>
             </div>
           </div>
-          <div class="flex flex-wrap px-24 sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-            <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
+          <div id="img-container" class="flex flex-wrap px-24 sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+            <div id="html" class="p-4 md:w-1/6 flex flex-col text-center items-center">
               <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
                 <img src="https://icon-library.com/images/html5-icon/html5-icon-13.jpg" alt="" class="p-3">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">HTML</h2>
-              </div>
+                <h2 translate="no" class="text-white text-lg title-font font-medium mb-3">HTML</h2>
+              </div> 
             </div>
             <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
               <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
                 <img src="https://logospng.org/download/css-3/logo-css-3-1536.png" alt="" class="p-3">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">CSS</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">CSS</h2>
               </div>
             </div>
             <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
@@ -286,7 +286,7 @@
                 <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Emblem.png" alt="">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">JavaScript</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">JavaScript</h2>
               </div>
             </div>
             <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
@@ -294,7 +294,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png?20230715030042" alt="" class="p-3">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">Tailwind</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Tailwind</h2>
               </div>
             </div>
             <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
@@ -302,7 +302,7 @@
                 <img src="https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0-1536x1536.png" alt="">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">Figma</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Figma</h2>
                 </a>
               </div>
             </div>
@@ -311,7 +311,7 @@
                 <img src="https://logospng.org/download/visual-studio-code/visual-studio-code-4096.png" alt="" class="p-5">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">VSCode</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">VSCode</h2>
                 </a>
               </div>
             </div>
@@ -320,25 +320,25 @@
                 <img src="https://www.freeiconspng.com/uploads/github-icon-9.png" alt="">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">Github</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Github</h2>
                 </a>
               </div>
             </div>
-            <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
+            <div id="wordpress" class="p-4 md:w-1/6 flex flex-col text-center items-center">
               <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
                 <img src="https://pngimg.com/uploads/wordpress/wordpress_PNG47.png" alt=""  class="p-3">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">Wordpress</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Wordpress</h2>
                 </a>
               </div>
             </div>
-            <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
+            <div id="elementor" class="p-4 md:w-1/6 flex flex-col text-center items-center">
               <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
                 <img src="https://drawne.com/wp-content/uploads/2019/01/elementor-logo.png" alt=""  class="p-1">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">Elementor</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Elementor</h2>
                 </a>
               </div>
             </div>
@@ -347,7 +347,7 @@
                 <img src="https://pnghq.com/wp-content/uploads/pnghq.com-scratch-logo-png-4836-download.png" alt="" class="p-3">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">Scratch</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Scratch</h2>
                 </a>
               </div>
             </div>
@@ -356,7 +356,7 @@
                 <img src="https://logospng.org/download/c-plus-plus/c-plus-plus-4096.png" alt="" class="p-3">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">C++</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">C++</h2>
                 </a>
               </div>
             </div>
@@ -365,7 +365,7 @@
                 <img src="https://www.pngall.com/wp-content/uploads/13/Canva-Logo-Transparent.png" alt=""  class="p-4">
               </div>
               <div class="flex-grow">
-                <h2 class="text-white text-lg title-font font-medium mb-3">Canva</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Canva</h2>
                 </a>
               </div>
             </div>
@@ -378,16 +378,16 @@
       
 
 
-      <section class="text-gray-400 bg-gray-900 body-font">
+      <section id="quote" class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-0 py-24 mx-auto">
           <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-500 mb-8" viewBox="0 0 975.036 975.036">
               <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
             </svg>
-            <p class="leading-relaxed text-lg">Programming itu skill yang harus dilatih, dipelajari, dan diasah terus menerus, sama seperti belajar keahlian lain. Kuantitas belajar tidak menentukan kita lebih cepat menguasai coding, tapi kualitas yang terpenting. Bagi saya, coding itu menantang. Maka, ketika memutuskan untuk mempelajari coding, berarti kalian sudah berkomitmen untuk tidak berhenti belajar</p>
+            <p class="leading-relaxed text-lg">Programming is a skill that must be trained, studied and honed continuously, just like learning other skills. The quantity of learning does not determine whether we master coding more quickly, but the quality that is most important. For me, coding is challenging. So, when you decide to learn coding, it means you are committed not to stop learning.</p>
             <span class="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"></span>
             <h2 class="text-white font-medium title-font tracking-wider pb-3 text-sm">SANDHIKA GALIH</h2>
-            <p class="text-gray-500">Dosen Para Programmer Indonesia</p>
+            <p class="text-gray-500">Lecturer for Indonesian Programmers</p>
           </div>
         </div>
       </section>
