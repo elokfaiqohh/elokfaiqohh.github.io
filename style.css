@@ -28,6 +28,22 @@
     z-index: 11;
 }
 
+#project {
+    max-height: 600px;
+    display: flex;
+    overflow-x: auto;
+}
+
+#project::-webkit-scrollbar{
+    width: 0;   
+}
+
+#project #website{
+    min-width: 450px;
+    line-height: 50px;
+    margin-left: 17px;
+}
+
 /*mengubah gaya navbar menggunakan javascript*/
 .window-scroll{
     background-color: #111827ed;
