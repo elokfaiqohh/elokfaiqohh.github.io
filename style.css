@@ -29,7 +29,7 @@
 }
 
 #project {
-    max-height: 600px;
+    max-height: 650px;
     display: flex;
     overflow-x: auto;
 }
@@ -41,7 +41,7 @@
 #project #website{
     min-width: 450px;
     line-height: 50px;
-    margin-left: 17px;
+    margin: 0 10px;
 }
 
 /*mengubah gaya navbar menggunakan javascript*/
