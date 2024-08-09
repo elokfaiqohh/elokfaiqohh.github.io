@@ -72,6 +72,12 @@
     box-shadow: inset 0px -20px 6rem -20px rgb(111 107 129 / 50%);
 }
 
+/* #info button{
+  background-color: #935473;
+  color: #d9d9d9;
+  cursor: pointer;
+} */
+
 #maps{
     filter: grayscale(0.7) contrast(1) opacity(0.5);
 }
