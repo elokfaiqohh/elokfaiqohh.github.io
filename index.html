@@ -28,12 +28,12 @@
       <section id="hero" class="text-gray-400 bg-gray-700 body-font">
         <div class="container mx-auto flex px-10 pb-0 pt-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font md:text-6xl text-3xl mb-6 font-bold text-white">Hi, I am <span class="auto-type text-pink-500"></span> </h1>
+            <h1 class="title-font md:text-6xl text-3xl mb-6 font-bold text-white">Hi, I am <span translate="no" class="auto-type text-pink-500"></span> </h1>
             <h2 class="title-font sm:text-3xl text-3xl mb-8 font-medium text-white">Junior Software Engineer</h2>
             <p id="deskripsi" class="mb-8 pr-24">I am a creative, innovative person with a high learning spirit and a love of learning new things.  All about technology.</p>
             <div class="flex justify-center">
               <a id="learnMore" href="#intro" class="inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Learn More</a>
-              <a href="assets/CV ATS - ELOK FAIQOH.pdf" download id="openResume" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Check My Resume</a>
+              <a href="assets/CV ATS ELOK FAIQOH.pdf" download id="openResume" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Check My Resume</a>
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -112,7 +112,7 @@
                   </svg>
                 </a>
                 <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                  <span class="text-pink-100 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">3.85</span>
+                  <span class="text-pink-100 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">3.81</span>
                   <span class="text-gray-500 inline-flex items-center leading-none text-sm"> 4.0</span>
                 </div>
               </div>
@@ -497,14 +497,16 @@
             <div class="relative mb-4">
               <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
               <input type="text" id="name" name="name" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <p id="name-error">Name can't be blank</p>
             </div>
             <div class="relative mb-4">
               <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
               <input type="email" id="email" name="email" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <p id="email-error">Email can't be blank</p>
             </div>
             <div class="relative mb-4">
               <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
-              <textarea id="message" name="message" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+              <textarea id="message" name="message" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea><p id="message-error">Message can't be blank</p>
             </div>
             <button id="submit" disabled class="text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Button</button>
             <p class="text-xs text-gray-400 text-opacity-90 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
