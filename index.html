@@ -13,7 +13,7 @@
 <body>
     <header id="header" class="text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-6 flex-col md:flex-row items-center">
-          <a href="#" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <a href="#" id="logo" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <span onclick="location.reload()" class="ml-3 text-xl">Elok Faiqoh</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
@@ -173,7 +173,7 @@
 
       <section id="project" class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto">
-          <div class="flex -m-4">
+          <div class="flex -m-4 sm:justify-center justify-start">
             <div id="website"  data-aos="zoom-in-up" data-aos-duration="4000"  class="p-4 md:w-1/3">
               <div class="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
                 <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/sekolah.png" alt="blog">
@@ -457,13 +457,21 @@
             </div>
           </div>
           <div id="img-container" class="flex flex-wrap px-24 sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-            <div id="html" class="p-4 md:w-1/6 flex flex-col text-center items-center">
+            <div class="p-4 md:w-1/6 flex flex-col text-center items-center mt-[24px] md:m-auto">
+              <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
+                <img src="https://pluspng.com/img-png/nodejs-png-nodejs-icon-png-50-px-1600.png" alt="" class="p-3">
+              </div>
+              <div class="flex-grow">
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Node</h2>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
               <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
                 <img src="https://logospng.org/download/react/logo-react-512.png" alt="" class="p-3">
               </div>
               <div class="flex-grow">
-                <h2 translate="no" class="text-white text-lg title-font font-medium mb-3">React</h2>
-              </div> 
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">React</h2>
+              </div>
             </div>
             <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
               <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
@@ -483,10 +491,18 @@
             </div>
             <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
               <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
-                <img src="https://pluspng.com/img-png/nodejs-png-nodejs-icon-png-50-px-1600.png" alt="" class="p-3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png" alt="" class="p-3">
               </div>
               <div class="flex-grow">
-                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Node</h2>
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Dart</h2>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/6 flex flex-col text-center items-center">
+              <div id="image-apk" class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-pink-400 mb-5 flex-shrink-0">
+                <img src="https://images.seeklogo.com/logo-png/35/2/flutter-logo-png_seeklogo-354671.png" alt="" class="p-3">
+              </div>
+              <div class="flex-grow">
+                <h2 translate="no"  class="text-white text-lg title-font font-medium mb-3">Flutter</h2>
               </div>
             </div>
           </div>
@@ -548,7 +564,7 @@
               <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
               <textarea id="message" name="message" class="w-full bg-gray-800 rounded border border-gray-700 focus:border-pink-500 focus:ring-2 focus:ring-pink-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea><p id="message-error">Message can't be blank</p>
             </div>
-            <button id="submit" disabled class="text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Button</button>
+            <button id="submit" disabled class="text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg">Send</button>
             <p class="text-xs text-gray-400 text-opacity-90 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
           </form>
         </div>

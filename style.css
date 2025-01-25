@@ -1,75 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .swal-button {
-    padding: 7px 19px;
-    border-radius: 2px;
-    background-color: #fb758d;
-    font-size: 12px;
-    border: 1px solid #3e549a;
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
-  }
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #fb758d;
+  font-size: 12px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
 
 .swal-button:not([disabled]):hover {
-    background-color: #f94767;
-  }
+  background-color: #f94767;
+}
 
-#header{
-    /* background: #111827; */
-    width: 100vw;
-    height: 5rem;
-    position: fixed;
-    top: 0;
-    z-index: 11;
+#header {
+  /* background: #111827; */
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 11;
 }
 
 #project {
-    max-height: 650px;
-    display: flex;
-    overflow-x: auto;
+  max-height: 650px;
+  display: flex;
+  overflow-x: auto;
 }
 
-#project::-webkit-scrollbar{
-    width: 0;   
+#project::-webkit-scrollbar {
+  width: 0;
 }
 
-#project #website{
-    min-width: 450px;
-    line-height: 50px;
-    margin: 0 10px;
+#project #website {
+  min-width: 450px;
+  line-height: 50px;
+  margin: 0 10px;
 }
 
 /*mengubah gaya navbar menggunakan javascript*/
-.window-scroll{
-    background-color: #111827ed;
-    box-shadow: 0 2rem 2rem rgba(0,0,0,0.3);
-} 
-  
-#hero{
-    padding-top: 85px;
-    background: linear-gradient(0deg, black, #1c2b45);
+.window-scroll {
+  background-color: #111827ed;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
 }
 
-#img-hero{
-    filter: drop-shadow(-10px -25px 225px rgb(252 231 243));
+#hero {
+  padding-top: 85px;
+  background: linear-gradient(0deg, black, #1c2b45);
 }
 
-#intro{
-    /* box-shadow: inset 0px 55px 6rem -20px rgb(111 107 129 / 50%); */
+#img-hero {
+  filter: drop-shadow(-10px -25px 225px rgb(252 231 243));
 }
 
-#image-apk:hover{
-    transform: scale(1.2);
-    cursor: pointer;
+#intro {
+  /* box-shadow: inset 0px 55px 6rem -20px rgb(111 107 129 / 50%); */
 }
 
-#info{
-    box-shadow: inset 0px -20px 6rem -20px rgb(111 107 129 / 50%);
+#image-apk:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#info {
+  box-shadow: inset 0px -20px 6rem -20px rgb(111 107 129 / 50%);
 }
 
 /* #info button{
@@ -78,63 +78,85 @@
   cursor: pointer;
 } */
 
-#maps{
-    filter: grayscale(0.7) contrast(1) opacity(0.5);
+#maps {
+  filter: grayscale(0.7) contrast(1) opacity(0.5);
 }
 
-@media screen and (max-width: 420px){
-    #deskripsi{
-        padding:0;  
-    }
+#name-error,
+#email-error,
+#message-error {
+  font-size: 11px;
+  color: red;
+  display: none;
+}
 
-    p{
-        font-size: 13px;
-    }
+@media screen and (max-width: 420px) {
+  #logo {
+    visibility: hidden;
+    margin-top: -6vh;
+  }
 
-    #hero .container{
-        padding: 5rem 1.5rem 0;
-    }
+  #deskripsi {
+    padding: 0;
+  }
 
-    #hero h1{
-        font-size: 31px;
-        margin-bottom:1rem;
-    }
+  p {
+    font-size: 14px;
+  }
 
-    #hero h2{
-        font-size: 25px;
-    }
+  #hero .container {
+    padding: 5rem 1.5rem 0;
+  }
 
-    #openResume, #learnMore{
-        font-size: 12px;
-        padding: 7px 12px;
-    }
+  #hero h1 {
+    font-size: 31px;
+    margin-bottom: 1rem;
+  }
 
-    #img-container{
-        padding: 20px 10px;
-    }
+  #hero h2 {
+    font-size: 25px;
+  }
 
-    .flex{
-        justify-content: center;
-    }
+  #openResume,
+  #learnMore {
+    font-size: 12px;
+    padding: 7px 12px;
+  }
 
-    #html{
-        padding-top:40px;
-    }
+  #project #website{
+    min-width: 380px;
+  }
 
-    #wordpress{
-        padding-left:5px;
-        padding-right:5px;
-    }
+  #img-container {
+    padding: 20px 10px;
+  }
 
-    #elementor{
-        padding-left: 10px;
-    }
+  .flex {
+    justify-content: center;
+  }
 
-    #image-apk{
-        width: 70px;
-    }
+  #html {
+    padding-top: 40px;
+  }
 
-    #quote{
-        padding: 5rem 5%;
-    }
+  #wordpress {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #elementor {
+    padding-left: 10px;
+  }
+
+  #image-apk {
+    width: 70px;
+  }
+
+  #quote {
+    padding: 5rem 5%;
+  }
+
+  .text-lg{
+    font-size: 1rem;
+  }
 }
