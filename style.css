@@ -19,6 +19,38 @@
   background-color: #f94767;
 }
 
+/* Custom SweetAlert styling untuk dark theme */
+.swal-modal {
+  background-color: #1a1a2e !important;
+  border: 2px solid #fb758d;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(251, 117, 141, 0.3);
+}
+
+.swal-title {
+  color: #fff !important;
+  font-size: 24px;
+}
+
+.swal-text {
+  color: #d4d4d8 !important;
+}
+
+.swal-button.swal-button--cancel {
+  background-color: #4b5563 !important;
+  color: #fff !important;
+}
+
+.swal-button.swal-button--cancel:hover {
+  background-color: #6b7280 !important;
+}
+
+.swal-button.swal-button--confirm {
+  background: linear-gradient(135deg, #fb758d 0%, #f94767 100%) !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
 #header {
   /* background: #111827; */
   width: 100vw;

@@ -1,4 +1,21 @@
-// swal("This website is still under development.");
+// Tampilkan notifikasi pindahan website setiap kali halaman dibuka
+swal({
+  title: "Portfolio Moved! 🎉",
+  text: "Portofolio terbaru saya sudah pindah ke link baru.",
+  icon: "info",
+  buttons: {
+    cancel: "Tutup",
+    confirm: {
+      text: "Kunjungi Sekarang",
+      value: true
+    }
+  },
+  dangerMode: false,
+}).then((value) => {
+  if (value) {
+    window.location.href = "http://elokfaiqoh.my.id/";
+  }
+});
 
 var typed = new Typed(".auto-type", {
   strings: ["Elok", "Student", "Programmer"],
